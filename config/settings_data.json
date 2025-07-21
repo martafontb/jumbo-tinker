@@ -9,8 +9,8 @@
  */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/logo_top.png",
-    "logo_inverse": "shopify:\/\/shop_images\/jumbo_footer.png",
+    "logo": "shopify://shop_images/IMG_3260.jpg",
+    "logo_inverse": "shopify://shop_images/jumbo_footer.png",
     "type_body_font": "geist_n4",
     "type_subheading_font": "geist_n5",
     "type_heading_font": "geist_mono_n4",
@@ -59,7 +59,7 @@
           "primary_hover": "#bebdbd",
           "border": "#e6e6e6",
           "shadow": "#000000",
-          "primary_button_background": "#ffffff28",
+          "primary_button_background": "#ffffff29",
           "primary_button_text": "#000000",
           "primary_button_border": "#000000",
           "primary_button_hover_background": "#000000",
