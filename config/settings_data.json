@@ -38,6 +38,7 @@
     "cart_type": "drawer",
     "cart_price_font": "tertiary",
     "icon_stroke": "thin",
+    "inputs_border_radius": 32,
     "popover_border": "none",
     "currency_code_enabled_product_pages": false,
     "currency_code_enabled_product_cards": false,

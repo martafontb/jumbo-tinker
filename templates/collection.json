@@ -27,6 +27,7 @@
             "case": "none",
             "wrap": "pretty",
             "color": "",
+            "text_color": "#000000",
             "background": false,
             "background_color": "#00000026",
             "corner_radius": 0,
@@ -40,6 +41,7 @@
         "text_7bbeip": {
           "type": "text",
           "name": "t:names.text",
+          "disabled": true,
           "settings": {
             "text": "",
             "width": "fit-content",
@@ -53,6 +55,7 @@
             "case": "none",
             "wrap": "pretty",
             "color": "var(--color-foreground)",
+            "text_color": "#000000",
             "background": false,
             "background_color": "#00000026",
             "corner_radius": 0,
@@ -142,6 +145,7 @@
                 "case": "none",
                 "wrap": "pretty",
                 "color": "",
+                "text_color": "#000000",
                 "background": false,
                 "background_color": "#00000026",
                 "corner_radius": 0,

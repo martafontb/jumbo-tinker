@@ -33,7 +33,7 @@
       if block.settings.font_size != ''
         echo ' custom-font-size '
       endif
-      if block.settings.color != ''
+      if block.settings.text_color != ''
         echo ' custom-color '
       endif
     endif
@@ -50,10 +50,12 @@
   class="{{ class }} spacing-style text-block text-block--{{ block.id }} {{ block.settings.type_preset }}
     {{ text_block_classes }}
   "
-
   style="
     {% render 'spacing-padding', settings: block.settings %}
     {% render 'typography-style', settings: block.settings %}
+    {% if block.settings.text_color != blank %}
+      --color: {{ block.settings.text_color }};
+    {% endif %}
     --width: {{ text_width }};
     --max-width: var(--max-width--{{ type }}-{{ block.settings.max_width }});
     {% if text_width == "100%" %}
