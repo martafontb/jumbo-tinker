@@ -19,7 +19,7 @@
           "settings": {
             "text": "Free Shipping over 🇪🇺 Europe 50€ • 🇬🇧 UK £60 • 🇺🇸 USA $100 • 🌎 Worldwide $150",
             "link": "shopify://collections/objects",
-            "font": "var(--font-primary--family)",
+            "font": "var(--font-subheading--family)",
             "font_size": "var(--font-size--body-md)",
             "weight": "",
             "letter_spacing": "normal",
