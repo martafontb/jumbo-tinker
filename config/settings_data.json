@@ -1,16 +1,7 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "current": {
-    "logo": "shopify://shop_images/logo_top.png",
-    "logo_inverse": "shopify://shop_images/jumbo_footer.png",
+    "logo": "shopify:\/\/shop_images\/logo_top.png",
+    "logo_inverse": "shopify:\/\/shop_images\/jumbo_footer.png",
     "type_body_font": "geist_n4",
     "type_subheading_font": "geist_n5",
     "type_heading_font": "geist_mono_n4",
@@ -30,6 +21,8 @@
     "card_hover_effect": "none",
     "badge_corner_radius": 50,
     "badge_sale_color_scheme": "scheme-4",
+    "badge_sold_out_color_scheme": "scheme-1",
+    "primary_button_border_width": 1,
     "type_font_button_primary": "body",
     "button_font_weight_primary": "400",
     "secondary_button_border_width": 0,
@@ -39,6 +32,7 @@
     "popover_border": "none",
     "currency_code_enabled_product_pages": false,
     "currency_code_enabled_product_cards": false,
+    "quick_add_color_scheme": "scheme-1",
     "product_corner_radius": 10,
     "card_corner_radius": 10,
     "variant_swatch_width": 24,
@@ -53,10 +47,10 @@
           "foreground_heading": "#000000",
           "foreground": "#000000",
           "primary": "#000000",
-          "primary_hover": "#dcd494",
+          "primary_hover": "#bebdbd",
           "border": "#e6e6e6",
           "shadow": "#000000",
-          "primary_button_background": "#dcd494",
+          "primary_button_background": "#ffffff28",
           "primary_button_text": "#000000",
           "primary_button_border": "#000000",
           "primary_button_hover_background": "#000000",

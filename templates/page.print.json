@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "main": {
@@ -16,7 +7,7 @@
           "type": "text",
           "name": "Title",
           "settings": {
-            "text": "<h1>{{ closest.page.title }}</h1>",
+            "text": "<h1>{{ closest.page.title }}<\/h1>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "left",
@@ -125,7 +116,7 @@
                 "text_JR7yAe": {
                   "type": "text",
                   "settings": {
-                    "text": "<h2>New arrivals</h2>",
+                    "text": "<h2>New arrivals<\/h2>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -150,7 +141,7 @@
                 "text_wjeKgX": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Introducing our latest products, made especially for the season. Shop your favorites before they're gone!</p>",
+                    "text": "<p>Introducing our latest products, made especially for the season. Shop your favorites before they're gone!<\/p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -176,7 +167,7 @@
                   "type": "button",
                   "settings": {
                     "label": "Shop now",
-                    "link": "shopify://collections/all",
+                    "link": "shopify:\/\/collections\/all",
                     "open_in_new_tab": false,
                     "style_class": "button",
                     "width": "fit-content",
@@ -263,7 +254,7 @@
                 "text_BenbeL": {
                   "type": "text",
                   "settings": {
-                    "text": "<h2>Bestsellers</h2>",
+                    "text": "<h2>Bestsellers<\/h2>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -288,7 +279,7 @@
                 "text_tyUAgP": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Discover the bestsellers that have captured the hearts of our customers with their perfect blend of functionality and style.</p>",
+                    "text": "<p>Discover the bestsellers that have captured the hearts of our customers with their perfect blend of functionality and style.<\/p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -314,7 +305,7 @@
                   "type": "button",
                   "settings": {
                     "label": "Shop now",
-                    "link": "shopify://collections/all",
+                    "link": "shopify:\/\/collections\/all",
                     "open_in_new_tab": false,
                     "style_class": "button",
                     "width": "fit-content",
@@ -361,7 +352,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<h2>Subscribe to our emails</h2>",
+            "text": "<h2>Subscribe to our emails<\/h2>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "center",
@@ -386,7 +377,7 @@
         "text_Mpemrh": {
           "type": "text",
           "settings": {
-            "text": "<p>Be the first to know about new collections and special offers. </p>",
+            "text": "<p>Be the first to know about new collections and special offers. <\/p>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "center",
@@ -473,7 +464,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<h3>Frequently asked questions</h3>",
+            "text": "<h3>Frequently asked questions<\/h3>",
             "width": "fit-content",
             "max_width": "narrow",
             "alignment": "left",
@@ -526,7 +517,7 @@
                 "text_7THcpJ": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Our goal is for every customer to be totally satisfied with their purchase. If this isn’t the case, let us know and we’ll do our best to work with you to make it right. </p>",
+                    "text": "<p>Our goal is for every customer to be totally satisfied with their purchase. If this isn’t the case, let us know and we’ll do our best to work with you to make it right. <\/p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -565,7 +556,7 @@
                 "text_QhikPt": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>We are unable to accept returns on certain items. These will be carefully marked before purchase.</p>",
+                    "text": "<p>We are unable to accept returns on certain items. These will be carefully marked before purchase.<\/p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -606,7 +597,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>We will work quickly to ship your order as soon as possible. Once your order has shipped, you will receive an email with further information. Delivery times vary depending on your location.</p>",
+                    "text": "<p>We will work quickly to ship your order as soon as possible. Once your order has shipped, you will receive an email with further information. Delivery times vary depending on your location.<\/p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -647,7 +638,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>Our products are manufactured both locally and globally. We carefully select our manufacturing partners to ensure our products are high quality and a fair value. </p>",
+                    "text": "<p>Our products are manufactured both locally and globally. We carefully select our manufacturing partners to ensure our products are high quality and a fair value. <\/p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -688,7 +679,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>Shipping is calculated based on your location and the items in your order. You will always know the shipping price before you purchase.</p>",
+                    "text": "<p>Shipping is calculated based on your location and the items in your order. You will always know the shipping price before you purchase.<\/p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",

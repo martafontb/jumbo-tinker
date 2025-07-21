@@ -1271,12 +1271,19 @@ button.shopify-payment-button__button--unbranded {
   --button-border-width: var(--style-border-width-primary);
 }
 
+button:hover:not(.add-to-cart-button):not(.button-unstyled):not(.shopify-payment-button__button--unbranded) {
+    transform: rotate(-8deg);
+    transition: transform var(--animation-speed) var(--animation-easing);
+    transform-origin: center center;
+}
+
 .button:hover,
-button.shopify-payment-button__button--unbranded:hover:not([disabled]) {
+button.shopify-payment-button__button--unbranded:hover:not([disabled]){
   --button-color: var(--color-primary-button-hover-text);
   --button-background-color: var(--color-primary-button-hover-background);
   --button-border-color: var(--color-primary-button-hover-border);
 }
+
 
 .button-secondary {
   --button-color: var(--color-secondary-button-text);

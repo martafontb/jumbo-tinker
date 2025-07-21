@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "hero_iLBwPd": {
@@ -95,7 +86,7 @@
                   "name": "t:names.button",
                   "settings": {
                     "label": "Shop",
-                    "link": "shopify://collections/all",
+                    "link": "shopify:\/\/collections\/all",
                     "open_in_new_tab": false,
                     "style_class": "button",
                     "width": "fit-content",
@@ -110,7 +101,7 @@
                   "name": "Heading",
                   "disabled": true,
                   "settings": {
-                    "text": "<h2><em>Introducing</em></h2>",
+                    "text": "<h2><em>Introducing<\/em><\/h2>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -136,7 +127,7 @@
                   "type": "text",
                   "disabled": true,
                   "settings": {
-                    "text": "<h1>Our Newest Arrivals </h1>",
+                    "text": "<h1>Our Newest Arrivals <\/h1>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -209,7 +200,7 @@
                   "name": "t:names.button",
                   "settings": {
                     "label": "Print",
-                    "link": "shopify://collections/all",
+                    "link": "shopify:\/\/collections\/all",
                     "open_in_new_tab": false,
                     "style_class": "button",
                     "width": "fit-content",
@@ -224,7 +215,7 @@
                   "name": "Heading",
                   "disabled": true,
                   "settings": {
-                    "text": "<h2><em>Introducing</em></h2>",
+                    "text": "<h2><em>Introducing<\/em><\/h2>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -250,7 +241,7 @@
                   "type": "text",
                   "disabled": true,
                   "settings": {
-                    "text": "<h1>Our Newest Arrivals </h1>",
+                    "text": "<h1>Our Newest Arrivals <\/h1>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -292,9 +283,9 @@
       "name": "t:names.hero",
       "settings": {
         "media_type_1": "image",
-        "image_1": "shopify://shop_images/8F1A3362_1.png",
+        "image_1": "shopify:\/\/shop_images\/8F1A3362_1.png",
         "media_type_2": "image",
-        "image_2": "shopify://shop_images/8F1A3273.jpg",
+        "image_2": "shopify:\/\/shop_images\/8F1A3273.jpg",
         "link": "",
         "open_in_new_tab": false,
         "content_direction": "column",
@@ -325,7 +316,7 @@
         "text_e7w7ix": {
           "type": "text",
           "settings": {
-            "text": "<p>Risograph prints, artist editions, custom printing  and small-batch publications from an independent press with a focus on experimental design, illustration, and graphic art.</p>",
+            "text": "<p>Risograph prints, artist editions, custom printing  and small-batch publications from an independent press with a focus on experimental design, illustration, and graphic art.<\/p>",
             "width": "100%",
             "max_width": "narrow",
             "alignment": "left",
@@ -459,7 +450,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h2>New arrivals</h2>",
+                    "text": "<h2>New arrivals<\/h2>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -486,7 +477,7 @@
                   "name": "t:names.button",
                   "settings": {
                     "label": "Shop now",
-                    "link": "shopify://collections/all",
+                    "link": "shopify:\/\/collections\/all",
                     "open_in_new_tab": false,
                     "style_class": "button",
                     "width": "fit-content",
@@ -656,13 +647,16 @@
           ]
         }
       },
+      "custom_css": [
+        ".price {opacity: 0.5;}"
+      ],
       "name": "t:names.products_grid",
       "settings": {
         "collection": "new",
         "layout_type": "grid",
         "carousel_on_mobile": false,
-        "max_products": 6,
-        "columns": 3,
+        "max_products": 8,
+        "columns": 4,
         "mobile_columns": "2",
         "mobile_card_size": "60cqw",
         "columns_gap": 12,
@@ -685,7 +679,7 @@
           "static": true,
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/8F1A3267.jpg",
+            "image": "shopify:\/\/shop_images\/8F1A3267.jpg",
             "link": "",
             "video_loop": true,
             "video_autoplay": true,
@@ -707,7 +701,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "shopify://shop_images/AWALKOUTSIDE7.jpg",
+                "image": "shopify:\/\/shop_images\/AWALKOUTSIDE7.jpg",
                 "link": "",
                 "image_ratio": "square",
                 "width": "fill",
@@ -731,7 +725,7 @@
               "name": "t:names.heading",
               "disabled": true,
               "settings": {
-                "text": "<h2>Productivity Essentials</h2>",
+                "text": "<h2>Productivity Essentials<\/h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -756,9 +750,9 @@
             "text_jxGhdJ": {
               "type": "text",
               "settings": {
-                "text": "<p>Jumbo Press is an independent risograph studio and publishing platform dedicated to print as a space for experimentation, collaboration, and community. Specialising in small-run artist editions, zines, and graphic ephemera, Jumbo champions bold visual voices through its approach to risograph printing.</p>",
+                "text": "<p>Jumbo Press is an independent risograph studio and publishing platform dedicated to print as a space for experimentation, collaboration, and community. Specialising in small-run artist editions, zines, and graphic ephemera, Jumbo champions bold visual voices through its approach to risograph printing.<\/p>",
                 "width": "fit-content",
-                "max_width": "narrow",
+                "max_width": "normal",
                 "alignment": "left",
                 "type_preset": "rte",
                 "font": "var(--font-primary--family)",
@@ -782,7 +776,7 @@
               "type": "button",
               "settings": {
                 "label": "Find out more",
-                "link": "shopify://collections/all",
+                "link": "shopify:\/\/collections\/all",
                 "open_in_new_tab": false,
                 "style_class": "button",
                 "width": "fit-content",
@@ -823,7 +817,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>Jumbo Blue</p>",
+            "text": "<p>Jumbo Blue<\/p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -848,7 +842,7 @@
         "text_UTkzpT": {
           "type": "text",
           "settings": {
-            "text": "<p>Jumbo Aqua</p>",
+            "text": "<p>Jumbo Aqua<\/p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -931,7 +925,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<h3>Shop by collection</h3>",
+                "text": "<h3>Shop by collection<\/h3>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1059,7 +1053,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Made with care and unconditionally loved by our customers, this signature bestseller exceeds all expectations.</p>",
+            "text": "<p>Made with care and unconditionally loved by our customers, this signature bestseller exceeds all expectations.<\/p>",
             "width": "fit-content",
             "max_width": "narrow",
             "alignment": "left",
