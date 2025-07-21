@@ -816,6 +816,74 @@
         "padding-block-end": 0
       }
     },
+    "marquee_ETfL7G": {
+      "type": "marquee",
+      "blocks": {
+        "text_ALeFwX": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Jumbo Blue</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "custom",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": true,
+            "background_color": "#0078bf",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_UTkzpT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Jumbo Aqua</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "custom",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "tight",
+            "letter_spacing": "tight",
+            "case": "none",
+            "wrap": "nowrap",
+            "color": "var(--color-foreground)",
+            "background": true,
+            "background_color": "#5ec8e5",
+            "corner_radius": 50,
+            "padding-block-start": 3,
+            "padding-block-end": 3,
+            "padding-inline-start": 18,
+            "padding-inline-end": 24
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_ALeFwX",
+        "text_UTkzpT"
+      ],
+      "name": "t:names.marquee_section",
+      "settings": {
+        "movement_direction": "normal",
+        "color_scheme": "",
+        "padding-block-start": 24,
+        "padding-block-end": 24,
+        "gap_between_elements": 24
+      }
+    },
     "collection_list_GYwGiT": {
       "type": "collection-list",
       "blocks": {
@@ -1071,6 +1139,7 @@
     "section_6cJtNX",
     "product_list_EDUBdR",
     "media_with_content_LfPdEJ",
+    "marquee_ETfL7G",
     "collection_list_GYwGiT",
     "section_JVrMtA"
   ]
