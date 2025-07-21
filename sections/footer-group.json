@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "footer",
   "name": "Footer",
@@ -11,7 +20,7 @@
           "settings": {
             "media_type": "video",
             "link": "",
-            "video": "shopify:\/\/files\/videos\/website video.mp4",
+            "video": "shopify://files/videos/website video.mp4",
             "video_loop": true,
             "video_autoplay": true,
             "image_position": "cover",
@@ -32,7 +41,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<p>Join our Newsletter — And get the scoop on new drops, events and special perks at Jumbo<\/p>",
+                "text": "<p>Join our Newsletter — And get the scoop on new drops, events and special perks at Jumbo</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -285,7 +294,7 @@
                 "text_dFFpdp": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Stay Connected<\/p>",
+                    "text": "<p>Stay Connected</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -352,7 +361,7 @@
                       "settings": {
                         "icon": "facebook",
                         "width": 28,
-                        "link": "https:\/\/www.facebook.com\/shopify",
+                        "link": "https://www.facebook.com/shopify",
                         "open_in_new_tab": false
                       },
                       "blocks": {}
@@ -362,7 +371,7 @@
                       "settings": {
                         "icon": "instagram",
                         "width": 28,
-                        "link": "https:\/\/www.instagram.com\/shopify\/",
+                        "link": "https://www.instagram.com/shopify/",
                         "open_in_new_tab": false
                       },
                       "blocks": {}
@@ -372,7 +381,7 @@
                       "settings": {
                         "icon": "tiktok",
                         "width": 28,
-                        "link": "https:\/\/www.tiktok.com\/@shopify",
+                        "link": "https://www.tiktok.com/@shopify",
                         "open_in_new_tab": false
                       },
                       "blocks": {}
@@ -382,7 +391,7 @@
                       "settings": {
                         "icon": "youtube",
                         "width": 28,
-                        "link": "https:\/\/www.youtube.com\/shopify",
+                        "link": "https://www.youtube.com/shopify",
                         "open_in_new_tab": false
                       },
                       "blocks": {}
