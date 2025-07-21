@@ -1,7 +1,16 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/logo_top.png",
-    "logo_inverse": "shopify:\/\/shop_images\/jumbo_footer.png",
+    "logo": "shopify://shop_images/logo_top.png",
+    "logo_inverse": "shopify://shop_images/jumbo_footer.png",
     "type_body_font": "geist_n4",
     "type_subheading_font": "geist_n5",
     "type_heading_font": "geist_mono_n4",
@@ -20,8 +29,12 @@
     "type_case_h6": "none",
     "card_hover_effect": "none",
     "badge_corner_radius": 50,
+    "badge_sale_color_scheme": "scheme-4",
+    "type_font_button_primary": "body",
+    "button_font_weight_primary": "400",
     "secondary_button_border_width": 0,
     "cart_type": "drawer",
+    "cart_price_font": "tertiary",
     "icon_stroke": "thin",
     "popover_border": "none",
     "currency_code_enabled_product_pages": false,
@@ -153,7 +166,7 @@
       },
       "scheme-4": {
         "settings": {
-          "background": "#fdc656",
+          "background": "#feff04",
           "foreground_heading": "#000000",
           "foreground": "#000000",
           "primary": "#000000",
@@ -165,18 +178,18 @@
           "primary_button_border": "#ffffff",
           "primary_button_hover_background": "#ffe6b4",
           "primary_button_hover_text": "#000000",
-          "primary_button_hover_border": "#ffe6b4",
-          "secondary_button_background": "#fdc656",
+          "primary_button_hover_border": "#feff04be",
+          "secondary_button_background": "#feff04",
           "secondary_button_text": "#000000",
           "secondary_button_border": "#000000",
-          "secondary_button_hover_background": "#fdc656",
+          "secondary_button_hover_background": "#feff04",
           "secondary_button_hover_text": "#303030",
           "secondary_button_hover_border": "#303030",
           "input_background": "#ffffff",
           "input_text_color": "#000000",
           "input_border_color": "#000000",
           "input_hover_background": "#f5f5f5",
-          "variant_background_color": "#fdc656",
+          "variant_background_color": "#feff04",
           "variant_text_color": "#000000",
           "variant_border_color": "#e6e6e6",
           "variant_hover_background_color": "#f5f5f5",
