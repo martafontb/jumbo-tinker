@@ -41,7 +41,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>Our books are a mix of self-initiated projects, collaborations and independent titles from artists we admire. Risograph printed and always small-run, they reflect our love for tactile publishing, alternative processes and collectives making work on their own terms.</p>",
+            "text": "",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
