@@ -1271,7 +1271,7 @@ button.shopify-payment-button__button--unbranded {
   --button-border-width: var(--style-border-width-primary);
 }
 
-button.rotate-on-hover:hover {
+a.rotate-on-hover:hover {
     transform: rotate(-8deg);
     transition: transform var(--animation-speed) var(--animation-easing);
     transform-origin: center center;
