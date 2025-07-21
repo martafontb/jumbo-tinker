@@ -95,7 +95,7 @@
                   "name": "t:names.button",
                   "settings": {
                     "label": "Shop",
-                    "link": "shopify:\/\/collections\/all",
+                    "link": "shopify://collections/all",
                     "open_in_new_tab": false,
                     "style_class": "button",
                     "width": "fit-content",
@@ -110,7 +110,7 @@
                   "name": "Heading",
                   "disabled": true,
                   "settings": {
-                    "text": "<h2><em>Introducing<\/em><\/h2>",
+                    "text": "<h2><em>Introducing</em></h2>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -122,6 +122,7 @@
                     "case": "none",
                     "wrap": "pretty",
                     "color": "",
+                    "text_color": "#000000",
                     "background": false,
                     "background_color": "#00000026",
                     "corner_radius": 0,
@@ -136,7 +137,7 @@
                   "type": "text",
                   "disabled": true,
                   "settings": {
-                    "text": "<h1>Our Newest Arrivals <\/h1>",
+                    "text": "<h1>Our Newest Arrivals </h1>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -148,6 +149,7 @@
                     "case": "none",
                     "wrap": "pretty",
                     "color": "",
+                    "text_color": "#000000",
                     "background": false,
                     "background_color": "#00000026",
                     "corner_radius": 0,
@@ -209,7 +211,7 @@
                   "name": "t:names.button",
                   "settings": {
                     "label": "Print",
-                    "link": "shopify:\/\/collections\/all",
+                    "link": "shopify://collections/all",
                     "open_in_new_tab": false,
                     "style_class": "button",
                     "width": "fit-content",
@@ -224,7 +226,7 @@
                   "name": "Heading",
                   "disabled": true,
                   "settings": {
-                    "text": "<h2><em>Introducing<\/em><\/h2>",
+                    "text": "<h2><em>Introducing</em></h2>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -236,6 +238,7 @@
                     "case": "none",
                     "wrap": "pretty",
                     "color": "",
+                    "text_color": "#000000",
                     "background": false,
                     "background_color": "#00000026",
                     "corner_radius": 0,
@@ -250,7 +253,7 @@
                   "type": "text",
                   "disabled": true,
                   "settings": {
-                    "text": "<h1>Our Newest Arrivals <\/h1>",
+                    "text": "<h1>Our Newest Arrivals </h1>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -262,6 +265,7 @@
                     "case": "none",
                     "wrap": "pretty",
                     "color": "",
+                    "text_color": "#000000",
                     "background": false,
                     "background_color": "#00000026",
                     "corner_radius": 0,
@@ -292,9 +296,9 @@
       "name": "t:names.hero",
       "settings": {
         "media_type_1": "image",
-        "image_1": "shopify:\/\/shop_images\/8F1A3362_1.png",
+        "image_1": "shopify://shop_images/8F1A3362_1.png",
         "media_type_2": "image",
-        "image_2": "shopify:\/\/shop_images\/8F1A3273.jpg",
+        "image_2": "shopify://shop_images/8F1A3273.jpg",
         "link": "",
         "open_in_new_tab": false,
         "content_direction": "column",
@@ -325,7 +329,7 @@
         "text_e7w7ix": {
           "type": "text",
           "settings": {
-            "text": "<p>Risograph prints, artist editions, custom printing  and small-batch publications from an independent press with a focus on experimental design, illustration, and graphic art.<\/p>",
+            "text": "<p>Risograph prints, artist editions, custom printing  and small-batch publications from an independent press with a focus on experimental design, illustration, and graphic art.</p>",
             "width": "100%",
             "max_width": "narrow",
             "alignment": "left",
@@ -337,6 +341,7 @@
             "case": "none",
             "wrap": "pretty",
             "color": "var(--color-foreground)",
+            "text_color": "#000000",
             "background": false,
             "background_color": "#00000026",
             "corner_radius": 0,
@@ -459,7 +464,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h2>New arrivals<\/h2>",
+                    "text": "<h2>New arrivals</h2>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -471,6 +476,7 @@
                     "case": "none",
                     "wrap": "pretty",
                     "color": "var(--color-foreground)",
+                    "text_color": "#000000",
                     "background": false,
                     "background_color": "#00000026",
                     "corner_radius": 0,
@@ -486,7 +492,7 @@
                   "name": "t:names.button",
                   "settings": {
                     "label": "Shop now",
-                    "link": "shopify:\/\/collections\/all",
+                    "link": "shopify://collections/all",
                     "open_in_new_tab": false,
                     "style_class": "button",
                     "width": "fit-content",
@@ -688,7 +694,7 @@
           "static": true,
           "settings": {
             "media_type": "image",
-            "image": "shopify:\/\/shop_images\/8F1A3267.jpg",
+            "image": "shopify://shop_images/8F1A3267.jpg",
             "link": "",
             "video_loop": true,
             "video_autoplay": true,
@@ -710,7 +716,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "shopify:\/\/shop_images\/AWALKOUTSIDE7.jpg",
+                "image": "shopify://shop_images/AWALKOUTSIDE7.jpg",
                 "link": "",
                 "image_ratio": "square",
                 "width": "fill",
@@ -732,7 +738,7 @@
             "text_jxGhdJ": {
               "type": "text",
               "settings": {
-                "text": "<p>Jumbo Press is an independent risograph studio and publishing platform dedicated to print as a space for experimentation, collaboration, and community. Specialising in small-run artist editions, zines, and graphic ephemera. <\/p>",
+                "text": "<p>Jumbo Press is an independent risograph studio and publishing platform dedicated to print as a space for experimentation, collaboration, and community. Specialising in small-run artist editions, zines, and graphic ephemera. </p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -744,6 +750,7 @@
                 "case": "none",
                 "wrap": "pretty",
                 "color": "",
+                "text_color": "#000000",
                 "background": false,
                 "background_color": "#00000026",
                 "corner_radius": 0,
@@ -758,7 +765,7 @@
               "type": "button",
               "settings": {
                 "label": "Find out more",
-                "link": "shopify:\/\/collections\/all",
+                "link": "shopify://collections/all",
                 "open_in_new_tab": false,
                 "style_class": "button",
                 "width": "fit-content",
@@ -798,7 +805,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>Jumbo Blue<\/p>",
+            "text": "<p>Jumbo Blue</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -810,6 +817,7 @@
             "case": "none",
             "wrap": "pretty",
             "color": "var(--color-foreground)",
+            "text_color": "#000000",
             "background": true,
             "background_color": "#0078bf",
             "corner_radius": 50,
@@ -823,7 +831,7 @@
         "text_UTkzpT": {
           "type": "text",
           "settings": {
-            "text": "<p>Jumbo Aqua<\/p>",
+            "text": "<p>Jumbo Aqua</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -835,6 +843,7 @@
             "case": "none",
             "wrap": "nowrap",
             "color": "var(--color-foreground)",
+            "text_color": "#000000",
             "background": true,
             "background_color": "#5ec8e5",
             "corner_radius": 50,
@@ -880,7 +889,7 @@
         "text_XHGKPz": {
           "type": "text",
           "settings": {
-            "text": "<p>Jumbo Red<\/p>",
+            "text": "<p>Jumbo Red</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -907,7 +916,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>Jumbo Yellow<\/p>",
+            "text": "<p>Jumbo Yellow</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -934,7 +943,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>Jumbo Green<\/p>",
+            "text": "<p>Jumbo Green</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -961,7 +970,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>Jumbo Blue<\/p>",
+            "text": "<p>Jumbo Blue</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -988,7 +997,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>Jumbo Aqua<\/p>",
+            "text": "<p>Jumbo Aqua</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -1015,7 +1024,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>Jumbo Purple<\/p>",
+            "text": "<p>Jumbo Purple</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -1042,7 +1051,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>Jumbo Fluo-Green<\/p>",
+            "text": "<p>Jumbo Fluo-Green</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -1092,7 +1101,7 @@
           "name": "t:names.button",
           "settings": {
             "label": "Our Riso Colours",
-            "link": "shopify:\/\/pages\/print",
+            "link": "shopify://pages/print",
             "open_in_new_tab": false,
             "style_class": "button",
             "width": "fit-content",
@@ -1195,7 +1204,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<h3>Shop by collection<\/h3>",
+                "text": "<h3>Shop by collection</h3>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1207,6 +1216,7 @@
                 "case": "none",
                 "wrap": "pretty",
                 "color": "var(--color-foreground)",
+                "text_color": "#000000",
                 "background": false,
                 "background_color": "#00000026",
                 "corner_radius": 0,
@@ -1323,7 +1333,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Made with care and unconditionally loved by our customers, this signature bestseller exceeds all expectations.<\/p>",
+            "text": "<p>Made with care and unconditionally loved by our customers, this signature bestseller exceeds all expectations.</p>",
             "width": "fit-content",
             "max_width": "narrow",
             "alignment": "left",
@@ -1335,6 +1345,7 @@
             "case": "none",
             "wrap": "pretty",
             "color": "var(--color-foreground)",
+            "text_color": "#000000",
             "background": false,
             "background_color": "#00000026",
             "corner_radius": 0,
