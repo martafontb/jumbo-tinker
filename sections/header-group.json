@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "Header",
@@ -9,7 +18,7 @@
           "type": "_announcement",
           "settings": {
             "text": "Free Shipping over 🇪🇺 Europe 50€ • 🇬🇧 UK £60 • 🇺🇸 USA $100 • 🌎 Worldwide $150",
-            "link": "shopify:\/\/collections\/objects",
+            "link": "shopify://collections/objects",
             "font": "var(--font-primary--family)",
             "font_size": "var(--font-size--body-md)",
             "weight": "",
@@ -54,9 +63,9 @@
           "static": true,
           "settings": {
             "menu": "main-menu-1",
-            "menu_style": "collection_images",
-            "featured_products_aspect_ratio": "4 \/ 5",
-            "featured_collections_aspect_ratio": "16 \/ 9",
+            "menu_style": "featured_products",
+            "featured_products_aspect_ratio": "4 / 5",
+            "featured_collections_aspect_ratio": "16 / 9",
             "image_border_radius": 0,
             "product_title_case": "default",
             "collection_title_case": "default",
