@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Ronzino Regular';
+    src: url('https://cdn.shopify.com/s/files/1/0057/2103/0759/files/Ronzino-Regular.woff2?v=1745140783') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Ronzino Bold Oblique';
+    src: url('https://cdn.shopify.com/s/files/1/0057/2103/0759/files/Ronzino-BoldOblique.woff2?v=1745140783') format('woff2');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Ronzino-MediumOblique';
+    src: url('https://cdn.shopify.com/s/files/1/0057/2103/0759/files/Ronzino-MediumOblique.woff2?v=1745140784') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Ronzino-Medium';
+    src: url('https://cdn.shopify.com/s/files/1/0057/2103/0759/files/Ronzino-Medium.woff2?v=1745140783') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
