@@ -41,7 +41,6 @@
         "text_7bbeip": {
           "type": "text",
           "name": "t:names.text",
-          "disabled": true,
           "settings": {
             "text": "",
             "width": "fit-content",
