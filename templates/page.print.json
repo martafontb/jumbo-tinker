@@ -65,7 +65,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p><strong>Colours </strong></p><p>Here's the colours we currently stock at Jumbo with the Hex codes for  your specific project. If there is a colour we don't have listed here please get in touch anyway as we may have added it to the collection. The colours are translucent therefore you can also mix to make secondary colours. Please see the guide below to help with any set up questions! </p>",
+            "text": "<p><strong>Colours</strong></p><p>Below is a list of the colours we currently stock at Jumbo, including their Hex codes for your specific project needs. If you're looking for a colour that's not listed, please feel free to get in touch—we may have recently added it to our collection.</p><p>All our colours are translucent, allowing you to mix them to create secondary shades. For assistance with setup or usage, please refer to the guide below.</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
