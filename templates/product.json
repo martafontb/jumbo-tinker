@@ -1072,6 +1072,9 @@
           ]
         }
       },
+      "custom_css": [
+        ".price {opacity: 0.5;}"
+      ],
       "name": "t:names.products_grid",
       "settings": {
         "collection": "new",
