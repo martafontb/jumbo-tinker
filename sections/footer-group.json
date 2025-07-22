@@ -20,7 +20,7 @@
           "settings": {
             "media_type": "video",
             "link": "",
-            "video": "shopify:\/\/files\/videos\/website video.mp4",
+            "video": "shopify://files/videos/website video.mp4",
             "video_loop": true,
             "video_autoplay": true,
             "image_position": "cover",
@@ -41,7 +41,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<p>Join our Newsletter — And get the scoop on new drops, events and special perks at Jumbo<\/p>",
+                "text": "<p>Join our Newsletter — And get the scoop on new drops, events and special perks at Jumbo</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -53,6 +53,7 @@
                 "case": "none",
                 "wrap": "pretty",
                 "color": "var(--color-foreground)",
+                "text_color": "#000000",
                 "background": false,
                 "background_color": "#00000026",
                 "corner_radius": 0,
@@ -294,7 +295,7 @@
                 "text_dFFpdp": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Stay Connected<\/p>",
+                    "text": "<p>Stay Connected</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -306,6 +307,7 @@
                     "case": "none",
                     "wrap": "pretty",
                     "color": "",
+                    "text_color": "#ffffff",
                     "background": false,
                     "background_color": "#00000026",
                     "corner_radius": 0,
@@ -361,7 +363,7 @@
                       "settings": {
                         "icon": "facebook",
                         "width": 28,
-                        "link": "https:\/\/www.facebook.com\/jumbopress",
+                        "link": "https://www.facebook.com/jumbopress",
                         "open_in_new_tab": false
                       },
                       "blocks": {}
@@ -371,7 +373,7 @@
                       "settings": {
                         "icon": "instagram",
                         "width": 28,
-                        "link": "https:\/\/www.instagram.com\/jumbopress",
+                        "link": "https://www.instagram.com/jumbopress",
                         "open_in_new_tab": false
                       },
                       "blocks": {}
@@ -381,7 +383,7 @@
                       "settings": {
                         "icon": "tiktok",
                         "width": 28,
-                        "link": "https:\/\/www.tiktok.com\/jumbopress",
+                        "link": "https://www.tiktok.com/jumbopress",
                         "open_in_new_tab": false
                       },
                       "blocks": {}
@@ -391,7 +393,7 @@
                       "settings": {
                         "icon": "youtube",
                         "width": 28,
-                        "link": "https:\/\/www.youtube.com\/jumbopress",
+                        "link": "https://www.youtube.com/jumbopress",
                         "open_in_new_tab": false
                       },
                       "blocks": {}
@@ -436,7 +438,6 @@
             },
             "policy_list": {
               "type": "_footer-policy-list",
-              "disabled": true,
               "static": true,
               "settings": {
                 "font_size": "0.75rem",
