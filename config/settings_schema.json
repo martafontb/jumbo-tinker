@@ -2,10 +2,10 @@
   {
     "name": "theme_info",
     "theme_name": "Tinker",
-    "theme_version": "2.0.1",
+    "theme_version": "2.1.1",
     "theme_author": "Shopify",
-    "theme_documentation_url": "https:\/\/help.shopify.com\/manual\/online-store\/themes",
-    "theme_support_url": "https:\/\/support.shopify.com\/"
+    "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
+    "theme_support_url": "https://support.shopify.com/"
   },
   {
     "name": "t:names.logo_and_favicon",
@@ -377,10 +377,6 @@
             "label": "12px"
           },
           {
-            "value": "13",
-            "label": "13px"
-          },
-          {
             "value": "14",
             "label": "14px"
           },
@@ -447,10 +443,6 @@
           {
             "value": "12",
             "label": "12px"
-          },
-          {
-            "value": "13",
-            "label": "13px"
           },
           {
             "value": "14",
@@ -599,10 +591,6 @@
           {
             "value": "12",
             "label": "12px"
-          },
-          {
-            "value": "13",
-            "label": "13px"
           },
           {
             "value": "14",
@@ -759,10 +747,6 @@
           {
             "value": "12",
             "label": "12px"
-          },
-          {
-            "value": "13",
-            "label": "13px"
           },
           {
             "value": "14",

@@ -1,6 +1,6 @@
 
-  {% render 'text', block: block %}
 
+{% render 'text', block: block %}
 
 {% schema %}
 {
@@ -314,14 +314,6 @@
     {
       "type": "header",
       "content": "t:content.appearance"
-    },
-    {
-      "type": "color",
-      "id": "text_color",
-      "label": "Text Color",
-      "alpha": true,
-      "default": "#000000",
-      "visible_if": "{{ block.settings.type_preset != 'rte' }}"
     },
     {
       "type": "checkbox",
