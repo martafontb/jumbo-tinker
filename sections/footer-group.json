@@ -190,7 +190,7 @@
                 "menu_F6QtGN": {
                   "type": "menu",
                   "settings": {
-                    "menu": "footer",
+                    "menu": "shop",
                     "heading": "Shop",
                     "menu_spacing": 6,
                     "show_as_accordion": true,
