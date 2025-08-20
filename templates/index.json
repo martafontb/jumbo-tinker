@@ -95,7 +95,7 @@
                   "name": "t:names.button",
                   "settings": {
                     "label": "Shop",
-                    "link": "shopify://collections/all",
+                    "link": "shopify://collections/new",
                     "open_in_new_tab": false,
                     "style_class": "button",
                     "width": "fit-content",
