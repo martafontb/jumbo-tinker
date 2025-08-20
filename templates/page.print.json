@@ -67,7 +67,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>We offer <strong>Risograph printing</strong> up to A3 and <strong>Giclée printing</strong> up to A1 </p>",
+            "text": "<p>We offer <strong>Risograph printing</strong> up to A3 and <strong>Giclée printing</strong> up to A1 </p><p><em>Please contact hey@jumbo-press.com for more info.</em></p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -144,7 +144,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<h3>Print guide</h3>",
+            "text": "<h3>Risograph Print guide</h3>",
             "width": "fit-content",
             "max_width": "narrow",
             "alignment": "left",
@@ -890,10 +890,266 @@
         "padding-block-start": 48,
         "padding-block-end": 48
       }
+    },
+    "section_qERiCr": {
+      "type": "section",
+      "blocks": {
+        "text_XckDGC": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h3>Giclée print guide</h3>",
+            "width": "fit-content",
+            "max_width": "narrow",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "text_color": "#000000",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "accordion_xkEdzq": {
+          "type": "accordion",
+          "name": "t:names.accordion",
+          "settings": {
+            "icon": "caret",
+            "dividers": true,
+            "type_preset": "h5",
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "accordion_row_67GU64": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "About Giclée Printing",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_DwFGjw": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Giclée is a professional fine art printing process using <strong>archival pigment inks</strong> and <strong>museum-grade paper</strong>. It produces vibrant, long-lasting prints that faithfully reproduce your artwork’s colors and details.</p><p>At Jumbo Press, we print on <strong>Hahnemühle Photo Matt Fibre 200 gsm</strong>, ensuring your prints are museum-quality and durable.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "text_color": "#000000",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_DwFGjw"
+              ]
+            },
+            "accordion_row_G6Thwy": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "File Requirements",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_BW8bNC": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>To get the best results, please provide:</p><ul><li><br/> 300 dpi at final print size<br/></li><li><br/> Adobe RGB (1998) or ProPhoto RGB<br/></li><li><br/> TIFF or high-quality JPEG (uncompressed or minimal compression)<br/></li><li><br/> Exact dimensions you want printed (A4, A3, A2, A1, or custom)<br/></li><li><br/> Leave 5–10 mm around the edges for trimming</li></ul>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "text_color": "#000000",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_BW8bNC"
+              ]
+            },
+            "accordion_row_HFzHz4": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_dash_row",
+              "settings": {
+                "heading": "Print Sizes",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_m7xcFe": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p>We can print standard and custom sizes:</p><p>Size Dimensions </p><ul><li>A4 (21 × 29.7 cm)</li><li>A3 (29.7 × 42 cm)</li><li>A2 (42 × 59.4 cm)</li><li>A1 (59.4 × 84.1 cm)<br/></li></ul><p>Custom sizes are available — contact us for guidance.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "text_color": "#000000",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_m7xcFe"
+              ]
+            },
+            "accordion_row_yAbBVC": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_dash_row",
+              "settings": {
+                "heading": "Tips for Best Results",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_R6LY3F": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<ul><li>Label your files clearly with your <strong>name and size</strong> to avoid mix-ups.</li><li>For mixed media or unusual colors, consider <strong>a test print first</strong>.</li><li>Ensure files are <strong>high-resolution</strong> and color-corrected.</li></ul>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "text_color": "#000000",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_R6LY3F"
+              ]
+            }
+          },
+          "block_order": [
+            "accordion_row_67GU64",
+            "accordion_row_G6Thwy",
+            "accordion_row_HFzHz4",
+            "accordion_row_yAbBVC"
+          ]
+        }
+      },
+      "block_order": [
+        "text_XckDGC",
+        "accordion_xkEdzq"
+      ],
+      "name": "t:names.faq_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 32,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 48,
+        "padding-block-end": 48
+      }
     }
   },
   "order": [
     "main",
-    "section_kEcUwz"
+    "section_kEcUwz",
+    "section_qERiCr"
   ]
 }
