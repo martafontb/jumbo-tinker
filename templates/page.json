@@ -120,7 +120,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>Print Sizes & Pricing (Hahnemühle 200gsm)<br/><br/>A4 – 1–2 copies: €15 | 3–5: €12 | 6–10: €10 | 10+: €8<br/>A3 – 1–2 copies: €25 | 3–5: €22 | 6–10: €18 | 10+: €15<br/>A2 – 1–2 copies: €40 | 3–5: €35 | 6–10: €30 | 10+: €25<br/>A1 – 1–2 copies: €65 | 3–5: €60 | 6–10: €55 | 10+: €50<br/></p><p><em>Museum grade printing using Pigment-based, archival inks</em><br/><br/></p>",
+            "text": "<p>Print Sizes & Pricing (Hahnemühle 200gsm)<br/><br/>A4 – 1–2 copies: €15 | 3–5: €12 | 6–10: €10 | 10+: €8<br/>A3 – 1–2 copies: €25 | 3–5: €22 | 6–10: €18 | 10+: €15<br/>A2 – 1–2 copies: €40 | 3–5: €35 | 6–10: €30 | 10+: €25<br/>A1 – 1–2 copies: €65 | 3–5: €60 | 6–10: €55 | 10+: €50<br/></p><p><em>Museum grade printing using pigment-based, archival inks</em><br/><br/></p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
