@@ -91,11 +91,11 @@
           "static": true,
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/DRUMS.jpg",
+            "image": "shopify://shop_images/IMG_3261.jpg",
             "link": "",
             "video_loop": true,
             "video_autoplay": false,
-            "image_position": "cover",
+            "image_position": "contain",
             "video_position": "cover"
           },
           "blocks": {}
@@ -255,28 +255,6 @@
     "section_KHX9VH": {
       "type": "section",
       "blocks": {
-        "video_Q8WTmz": {
-          "type": "video",
-          "name": "t:names.video",
-          "settings": {
-            "source": "uploaded",
-            "video_autoplay": false,
-            "video_loop": true,
-            "alt": "",
-            "custom_width": 100,
-            "custom_width_mobile": 100,
-            "aspect_ratio": "16/9",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
         "group_ecfmtW": {
           "type": "group",
           "name": "Caption",
@@ -315,58 +293,10 @@
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
-          "blocks": {
-            "text_9zYMVF": {
-              "type": "text",
-              "name": "t:names.text",
-              "settings": {
-                "text": "<p>Take a look behind the scenes of our latest product launch.</p>",
-                "width": "fit-content",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "text_color": "#000000",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "button_PXKPfk": {
-              "type": "button",
-              "name": "t:names.button",
-              "settings": {
-                "label": "Discover the collection",
-                "link": "shopify://collections/all",
-                "open_in_new_tab": false,
-                "style_class": "link",
-                "width": "fit-content",
-                "custom_width": 100,
-                "width_mobile": "fit-content",
-                "custom_width_mobile": 100
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "text_9zYMVF",
-            "button_PXKPfk"
-          ]
+          "blocks": {}
         }
       },
       "block_order": [
-        "video_Q8WTmz",
         "group_ecfmtW"
       ],
       "name": "t:names.video_section",
