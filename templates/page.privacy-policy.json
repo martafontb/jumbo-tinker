@@ -65,18 +65,11 @@
             "padding-inline-end": 0
           },
           "blocks": {}
-        },
-        "page-content": {
-          "type": "page-content",
-          "disabled": true,
-          "settings": {},
-          "blocks": {}
         }
       },
       "block_order": [
         "text_BAitbR",
-        "text_Uikfmx",
-        "page-content"
+        "text_Uikfmx"
       ],
       "settings": {
         "content_direction": "column",
