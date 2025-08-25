@@ -312,7 +312,7 @@
                 "text_yxXgKK": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Giclée is a fine art digital printing process using archival inks and museum-grade paper. It ensures vibrant, long-lasting prints with excellent detail.</p>",
+                    "text": "<p>Standard processing is 5–7 working days. For urgent jobs, please contact us.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -343,7 +343,7 @@
             "accordion_row_rALeyG": {
               "type": "_accordion-row",
               "settings": {
-                "heading": "What paper do you use?",
+                "heading": "Do you ship internationally?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -383,7 +383,7 @@
             "accordion_row_gAxTF9": {
               "type": "_accordion-row",
               "settings": {
-                "heading": "Can I print my own artwork with you?",
+                "heading": "Can I return a print?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -419,54 +419,12 @@
               "block_order": [
                 "text_MMjAPT"
               ]
-            },
-            "accordion_row_6Ujght": {
-              "type": "_accordion-row",
-              "name": "t:names.accordion_row",
-              "settings": {
-                "heading": "Do you offer bulk discounts?",
-                "open_by_default": false,
-                "icon": "none",
-                "width": 20
-              },
-              "blocks": {
-                "text_TYEfEh": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p>Yes. Our pricing decreases for larger runs — see our pricing guide.</p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "rte",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "text_color": "#000000",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "text_TYEfEh"
-              ]
             }
           },
           "block_order": [
             "accordion_row_7CzGQ4",
             "accordion_row_rALeyG",
-            "accordion_row_gAxTF9",
-            "accordion_row_6Ujght"
+            "accordion_row_gAxTF9"
           ]
         },
         "text_7jwy6t": {
