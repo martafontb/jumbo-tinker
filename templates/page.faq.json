@@ -12,11 +12,38 @@
     "main": {
       "type": "main-page",
       "blocks": {
-        "text_BAitbR": {
+        "text_P6Ak7C": {
           "type": "text",
-          "name": "t:names.text",
+          "name": "t:names.heading",
           "settings": {
-            "text": "<h2>Risograph  price guide </h2>",
+            "text": "<h2>FAQ</h2>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "text_color": "#000000",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_iTJiAx": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h3>PRINTING</h3>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -39,18 +66,15 @@
           },
           "blocks": {}
         },
-        "image_WjqBPW": {
-          "type": "image",
-          "name": "t:names.image",
+        "accordion_AMFCYJ": {
+          "type": "accordion",
+          "name": "t:names.accordion",
           "settings": {
-            "image": "shopify://shop_images/jumbo_poster.jpg",
-            "link": "",
-            "image_ratio": "adapt",
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fit",
+            "icon": "caret",
+            "dividers": true,
+            "type_preset": "h5",
+            "inherit_color_scheme": true,
+            "color_scheme": "",
             "border": "none",
             "border_width": 1,
             "border_opacity": 100,
@@ -60,131 +84,139 @@
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
-          "blocks": {}
-        },
-        "text_jmjmqA": {
-          "type": "text",
-          "name": "t:names.text",
-          "settings": {
-            "text": "<p>Prices based on A3 prints using 200g fedrigoni natural paper</p>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "rte",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "text_color": "#000000",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
+          "blocks": {
+            "accordion_row_beW9Nc": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Return policy",
+                "open_by_default": true,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_VFCfpy": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Our goal is for every customer to be totally satisfied with their purchase. If this isn't the case, let us know and we'll do our best to work with you to make it right.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "text_color": "#000000",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_VFCfpy"
+              ]
+            },
+            "accordion_row_qUk98K": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Shipping",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_aUBYxJ": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>We will work quickly to ship your order as soon as possible. Once your order has shipped, you will receive an email with further information. Delivery times vary depending on your location.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "text_color": "#000000",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_aUBYxJ"
+              ]
+            },
+            "accordion_row_b8TYar": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Manufacturing",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_YfcUFM": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Our products are manufactured both locally and globally. We carefully select our manufacturing partners to ensure our products are high quality and a fair value.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "text_color": "#000000",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_YfcUFM"
+              ]
+            }
           },
-          "blocks": {}
-        },
-        "text_bW7Cxk": {
-          "type": "text",
-          "name": "t:names.heading",
-          "settings": {
-            "text": "<h2>Giclée PRICE GUIDE</h2>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "rte",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "text_color": "#000000",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "text_hare33": {
-          "type": "text",
-          "name": "t:names.text",
-          "settings": {
-            "text": "<p>Print Sizes & Pricing (Hahnemühle 200gsm)<br/><br/>A4 – 1–2 copies: €15 | 3–5: €12 | 6–10: €10 | 10+: €8<br/>A3 – 1–2 copies: €25 | 3–5: €22 | 6–10: €18 | 10+: €15<br/>A2 – 1–2 copies: €40 | 3–5: €35 | 6–10: €30 | 10+: €25<br/>A1 – 1–2 copies: €65 | 3–5: €60 | 6–10: €55 | 10+: €50<br/></p><p><em>Museum grade printing using pigment-based, archival inks</em><br/><br/></p>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "rte",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "text_color": "#000000",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "text_Uikfmx": {
-          "type": "text",
-          "name": "t:names.text",
-          "settings": {
-            "text": "",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "rte",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "text_color": "#000000",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "page-content": {
-          "type": "page-content",
-          "disabled": true,
-          "settings": {},
-          "blocks": {}
+          "block_order": [
+            "accordion_row_beW9Nc",
+            "accordion_row_qUk98K",
+            "accordion_row_b8TYar"
+          ]
         }
       },
       "block_order": [
-        "text_BAitbR",
-        "image_WjqBPW",
-        "text_jmjmqA",
-        "text_bW7Cxk",
-        "text_hare33",
-        "text_Uikfmx",
-        "page-content"
+        "text_P6Ak7C",
+        "text_iTJiAx",
+        "accordion_AMFCYJ"
       ],
       "settings": {
         "content_direction": "column",
