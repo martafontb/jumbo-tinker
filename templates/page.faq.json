@@ -88,7 +88,7 @@
             "accordion_row_beW9Nc": {
               "type": "_accordion-row",
               "settings": {
-                "heading": "Return policy",
+                "heading": "What is giclée printing?",
                 "open_by_default": true,
                 "icon": "none",
                 "width": 20
@@ -97,7 +97,7 @@
                 "text_VFCfpy": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Our goal is for every customer to be totally satisfied with their purchase. If this isn't the case, let us know and we'll do our best to work with you to make it right.</p>",
+                    "text": "<p>Giclée is a fine art digital printing process using archival inks and museum-grade paper. It ensures vibrant, long-lasting prints with excellent detail.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -128,7 +128,7 @@
             "accordion_row_qUk98K": {
               "type": "_accordion-row",
               "settings": {
-                "heading": "Shipping",
+                "heading": "What paper do you use?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -137,7 +137,7 @@
                 "text_aUBYxJ": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>We will work quickly to ship your order as soon as possible. Once your order has shipped, you will receive an email with further information. Delivery times vary depending on your location.</p>",
+                    "text": "<p>We print on Hahnemühle Photo Matt Fibre 200 gsm, a professional museum-quality paper. Other papers are available on request.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
