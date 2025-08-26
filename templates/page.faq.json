@@ -476,7 +476,7 @@
             "accordion_row_8XYJje": {
               "type": "_accordion-row",
               "settings": {
-                "heading": "What is giclée printing?",
+                "heading": "Which payment methods do you accept?",
                 "open_by_default": true,
                 "icon": "none",
                 "width": 20
@@ -485,7 +485,7 @@
                 "text_P8icHN": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Giclée is a fine art digital printing process using archival inks and museum-grade paper. It ensures vibrant, long-lasting prints with excellent detail.</p>",
+                    "text": "<p>We accept credit/debit cards, PayPal, and bank transfer (for local orders).</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -513,91 +513,11 @@
                 "text_P8icHN"
               ]
             },
-            "accordion_row_YWdbJL": {
-              "type": "_accordion-row",
-              "settings": {
-                "heading": "What paper do you use?",
-                "open_by_default": false,
-                "icon": "none",
-                "width": 20
-              },
-              "blocks": {
-                "text_ecmaFA": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p>We print on Hahnemühle Photo Matt Fibre 200 gsm, a professional museum-quality paper. Other papers are available on request.</p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "rte",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "text_color": "#000000",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "text_ecmaFA"
-              ]
-            },
-            "accordion_row_HjwhFW": {
-              "type": "_accordion-row",
-              "settings": {
-                "heading": "Can I print my own artwork with you?",
-                "open_by_default": false,
-                "icon": "none",
-                "width": 20
-              },
-              "blocks": {
-                "text_VbwtWn": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p>Yes. We offer printing services for artists, illustrators, and photographers. See our “Print with us” page for details.</p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "rte",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "text_color": "#000000",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "text_VbwtWn"
-              ]
-            },
             "accordion_row_eNL36M": {
               "type": "_accordion-row",
               "name": "t:names.accordion_row",
               "settings": {
-                "heading": "Do you offer bulk discounts?",
+                "heading": "Are prices with VAT?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -606,7 +526,7 @@
                 "text_GWfN7T": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Yes. Our pricing decreases for larger runs — see our pricing guide.</p>",
+                    "text": "<p>Yes. All prices include VAT where applicable.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -637,8 +557,6 @@
           },
           "block_order": [
             "accordion_row_8XYJje",
-            "accordion_row_YWdbJL",
-            "accordion_row_HjwhFW",
             "accordion_row_eNL36M"
           ]
         }
