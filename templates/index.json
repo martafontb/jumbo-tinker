@@ -798,77 +798,6 @@
         "padding-block-end": 0
       }
     },
-    "marquee_ETfL7G": {
-      "type": "marquee",
-      "blocks": {
-        "text_ALeFwX": {
-          "type": "text",
-          "name": "t:names.text",
-          "settings": {
-            "text": "<p>Jumbo Blue</p>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "custom",
-            "font": "var(--font-body--family)",
-            "font_size": "0.75rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "text_color": "#000000",
-            "background": true,
-            "background_color": "#0078bf",
-            "corner_radius": 50,
-            "padding-block-start": 3,
-            "padding-block-end": 3,
-            "padding-inline-start": 24,
-            "padding-inline-end": 24
-          },
-          "blocks": {}
-        },
-        "text_UTkzpT": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Jumbo Aqua</p>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "custom",
-            "font": "var(--font-body--family)",
-            "font_size": "0.75rem",
-            "line_height": "tight",
-            "letter_spacing": "tight",
-            "case": "none",
-            "wrap": "nowrap",
-            "color": "var(--color-foreground)",
-            "text_color": "#000000",
-            "background": true,
-            "background_color": "#5ec8e5",
-            "corner_radius": 50,
-            "padding-block-start": 3,
-            "padding-block-end": 3,
-            "padding-inline-start": 18,
-            "padding-inline-end": 24
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "text_ALeFwX",
-        "text_UTkzpT"
-      ],
-      "disabled": true,
-      "name": "t:names.marquee_section",
-      "settings": {
-        "movement_direction": "normal",
-        "color_scheme": "",
-        "padding-block-start": 24,
-        "padding-block-end": 24,
-        "gap_between_elements": 24
-      }
-    },
     "divider_9EHyYK": {
       "type": "divider",
       "name": "t:names.divider_section",
@@ -1325,90 +1254,6 @@
         "padding-block-start": 48,
         "padding-block-end": 48
       }
-    },
-    "section_JVrMtA": {
-      "type": "section",
-      "blocks": {
-        "text_ciA3Qi": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Made with care and unconditionally loved by our customers, this signature bestseller exceeds all expectations.</p>",
-            "width": "fit-content",
-            "max_width": "narrow",
-            "alignment": "left",
-            "type_preset": "rte",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "text_color": "#000000",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "logo_cB9kBG": {
-          "type": "logo",
-          "settings": {
-            "inverse": true,
-            "font": "heading",
-            "unit": "percent",
-            "percent_width": 100,
-            "pixel_height": 48,
-            "custom_mobile_size": false,
-            "unit_mobile": "percent",
-            "percent_width_mobile": 100,
-            "pixel_height_mobile": 120,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "text_ciA3Qi",
-        "logo_cB9kBG"
-      ],
-      "disabled": true,
-      "name": "t:names.large_logo",
-      "settings": {
-        "content_direction": "row",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "flex-start",
-        "vertical_alignment_flex_direction_column": "space-between",
-        "gap": 16,
-        "section_width": "page-width",
-        "section_height": "medium",
-        "section_height_custom": 50,
-        "color_scheme": "scheme-5",
-        "background_media": "none",
-        "video_position": "cover",
-        "background_image_position": "cover",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "padding-block-start": 40,
-        "padding-block-end": 40
-      }
     }
   },
   "order": [
@@ -1416,12 +1261,10 @@
     "section_6cJtNX",
     "product_list_EDUBdR",
     "media_with_content_LfPdEJ",
-    "marquee_ETfL7G",
     "divider_9EHyYK",
     "marquee_mQT3Ni",
     "section_4Be9cD",
     "divider_9tUzRW",
-    "collection_list_GYwGiT",
-    "section_JVrMtA"
+    "collection_list_GYwGiT"
   ]
 }
