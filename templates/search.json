@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "search": {
@@ -96,7 +105,7 @@
                 "border": "none",
                 "border_width": 1,
                 "border_opacity": 100,
-                "border_radius": 10,
+                "border_radius": 0,
                 "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
@@ -107,6 +116,7 @@
             "group_qCPndX": {
               "type": "_product-card-group",
               "settings": {
+                "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "column",
                 "vertical_on_mobile": true,
@@ -175,6 +185,12 @@
                     "type_preset": "paragraph",
                     "width": "fit-content",
                     "alignment": "center",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "color": "var(--color-foreground)",
                     "padding-block-start": 0,
                     "padding-block-end": 0,
                     "padding-inline-start": 0,
