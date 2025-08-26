@@ -992,7 +992,7 @@
                 "text_BW8bNC": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>To get the best results, please provide:</p><ul><li><br/> 300 dpi at final print size<br/></li><li><br/> Adobe RGB (1998) or ProPhoto RGB<br/></li><li><br/> TIFF or high-quality JPEG (uncompressed or minimal compression)<br/></li><li><br/> Exact dimensions you want printed (A4, A3, A2, A1, or custom)<br/></li><li><br/> Leave 5–10 mm around the edges for trimming</li></ul>",
+                    "text": "<p>To get the best results, please provide:</p><ul><li>300 dpi at final print size<br/></li><li>Adobe RGB (1998) or ProPhoto RGB<br/></li><li>TIFF or high-quality JPEG (uncompressed or minimal compression)<br/></li><li>Exact dimensions you want printed (A4, A3, A2, A1, or custom)<br/></li><li>Leave 5–10 mm around the edges for trimming</li></ul>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
