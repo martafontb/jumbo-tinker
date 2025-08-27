@@ -14,8 +14,9 @@
   endcase
 %}
 
+
 <div class="section section--{{ section.settings.section_width }} color-{{ section.settings.color_scheme }}">
-  
+  <h2 class="section__title">{{ section.settings.title }}</h2>
   {% capture list_items %}
     {% for block in section.blocks %}
       <div class="resource-list__item">
@@ -27,7 +28,9 @@
 
   {% assign list_items_array = list_items | strip | split: '<!--@list/split-->' %}
 
-  <div class="resource-list {{ classes }}" style="{{ styles }}">
+  <div class="resource-list {% if section.settings.layout_type == 'carousel' %}
+        force-full-width
+      {% endif %} {{ classes }}" style="{{ styles }}">
     {% render 'resource-list-carousel',
       ref: 'customImageCarousel',
       slides: list_items_array,
@@ -52,16 +55,6 @@
           "label": "Image"
         },
         {
-          "type": "text",
-          "id": "title",
-          "label": "Title"
-        },
-        {
-          "type": "textarea",
-          "id": "description",
-          "label": "Description"
-        },
-        {
           "type": "url",
           "id": "cta_link",
           "label": "CTA Link"
@@ -79,6 +72,11 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+      "type": "richtext",
+      "id": "title",
+      "label": "Title"
+    },
     {
       "type": "select",
       "id": "layout_type",
@@ -366,8 +364,6 @@
         "slide_1": {
           "type": "custom_slide",
           "settings": {
-            "title": "Feature 1",
-            "description": "Description for your first feature",
             "cta_text": "Learn More",
             "cta_link": "#"
           }
@@ -375,8 +371,6 @@
         "slide_2": {
           "type": "custom_slide",
           "settings": {
-            "title": "Feature 2", 
-            "description": "Description for your second feature",
             "cta_text": "Learn More",
             "cta_link": "#"
           }
@@ -384,17 +378,12 @@
         "slide_3": {
           "type": "custom_slide",
           "settings": {
-            "title": "Feature 3",
-            "description": "Description for your third feature", 
-            "cta_text": "Learn More",
             "cta_link": "#"
           }
         },
         "slide_4": {
           "type": "custom_slide",
           "settings": {
-            "title": "Feature 4",
-            "description": "Description for your fourth feature",
             "cta_text": "Learn More", 
             "cta_link": "#"
           }
@@ -426,8 +415,6 @@
         "slide_1": {
           "type": "custom_slide",
           "settings": {
-            "title": "Service 1",
-            "description": "Brief description of your service",
             "cta_text": "View Service",
             "cta_link": "#"
           }
@@ -435,8 +422,6 @@
         "slide_2": {
           "type": "custom_slide", 
           "settings": {
-            "title": "Service 2",
-            "description": "Brief description of your service",
             "cta_text": "View Service",
             "cta_link": "#"
           }
@@ -444,8 +429,6 @@
         "slide_3": {
           "type": "custom_slide",
           "settings": {
-            "title": "Service 3", 
-            "description": "Brief description of your service",
             "cta_text": "View Service",
             "cta_link": "#"
           }

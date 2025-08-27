@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "type": "footer",
   "name": "Footer",
@@ -200,7 +191,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>Join our Newsletter — And get the scoop on new drops, events and special perks at Jumbo</p>",
+                    "text": "<p>Join our Newsletter — And get the scoop on new drops, events and special perks at Jumbo<\/p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -251,7 +242,7 @@
                   "type": "text",
                   "disabled": true,
                   "settings": {
-                    "text": "<p>Stay Connected</p>",
+                    "text": "<p>Stay Connected<\/p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -320,7 +311,7 @@
                       "settings": {
                         "icon": "facebook",
                         "width": 28,
-                        "link": "https://www.facebook.com/jumbopress",
+                        "link": "https:\/\/www.facebook.com\/jumbopress",
                         "open_in_new_tab": false
                       },
                       "blocks": {}
@@ -330,7 +321,7 @@
                       "settings": {
                         "icon": "instagram",
                         "width": 28,
-                        "link": "https://www.instagram.com/jumbopress",
+                        "link": "https:\/\/www.instagram.com\/jumbopress",
                         "open_in_new_tab": false
                       },
                       "blocks": {}
@@ -340,7 +331,7 @@
                       "settings": {
                         "icon": "tiktok",
                         "width": 28,
-                        "link": "https://www.tiktok.com/jumbopress",
+                        "link": "https:\/\/www.tiktok.com\/jumbopress",
                         "open_in_new_tab": false
                       },
                       "blocks": {}
@@ -350,7 +341,7 @@
                       "settings": {
                         "icon": "youtube",
                         "width": 28,
-                        "link": "https://www.youtube.com/jumbopress",
+                        "link": "https:\/\/www.youtube.com\/jumbopress",
                         "open_in_new_tab": false
                       },
                       "blocks": {}

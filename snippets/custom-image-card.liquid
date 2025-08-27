@@ -1,24 +1,35 @@
 <div class="custom-image-card">
   {% if block.settings.image %}
     <div class="custom-image-card__image">
-      <img src="{{ block.settings.image | img_url: '400x400' }}" 
+      <img src="{{ block.settings.image | img_url: '800x800' }}" 
            alt="{{ block.settings.title | escape }}">
     </div>
   {% endif %}
   
   <div class="custom-image-card__content">
-    {% if block.settings.title %}
-      <h3 class="custom-image-card__title">{{ block.settings.title }}</h3>
-    {% endif %}
-    
-    {% if block.settings.description %}
-      <p class="custom-image-card__description">{{ block.settings.description }}</p>
-    {% endif %}
-    
     {% if block.settings.cta_link and block.settings.cta_text %}
-      <a href="{{ block.settings.cta_link }}" class="custom-image-card__cta">
-        {{ block.settings.cta_text }}
+      <a href="{{ block.settings.cta_link }}" target="_blank" class="custom-image-card__cta">
+        {{ block.settings.cta_text }} <span class="svg-wrapper icon-caret">{{- 'icon-caret.svg' | inline_asset_content -}}</span> <span class="visually-hidden"> (opens in a new tab)</span>
       </a>
     {% endif %}
   </div>
 </div>
+
+<style>
+  .custom-image-card__content {
+    margin-top: 10px;
+  }
+
+  .custom-image-card__cta {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: underline;
+  }
+
+  .custom-image-card__cta .icon-caret {
+    margin-left: 4px;
+    transform: rotate(-90deg);
+    width: 0.85rem;
+    height: 0.85rem;
+  }
+</style>

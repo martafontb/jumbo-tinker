@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "main": {
@@ -16,7 +7,7 @@
           "type": "text",
           "name": "Title",
           "settings": {
-            "text": "<h1>{{ closest.page.title }}</h1>",
+            "text": "<h1>{{ closest.page.title }}<\/h1>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "left",
@@ -44,7 +35,7 @@
           "name": "t:names.image",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/IMG_3261.jpg",
+            "image": "shopify:\/\/shop_images\/IMG_3261.jpg",
             "link": "",
             "image_ratio": "adapt",
             "width": "fill",
@@ -91,7 +82,7 @@
           "static": true,
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/IMG_3261.jpg",
+            "image": "shopify:\/\/shop_images\/IMG_3261.jpg",
             "link": "",
             "video_loop": true,
             "video_autoplay": false,
@@ -178,7 +169,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<p>About Jumbo</p>",
+                    "text": "<p>About Jumbo<\/p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -204,7 +195,7 @@
                 "text_tAAVjw": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Founded in 2018 Jumbo is a project by Jake Lucas and Marta Font. Our mission is to help amplify the voices of emerging artists and illustrators. We create and sell unique products & publications with a focus on self-published art, books & prints</p><p> </p><p><strong>What We Do at Jumbo Studio</strong></p><p>Jumbo Studio is a creative communications studio focused on design and illustrative solutions for brands. We bring our expertise and network of creatives together to help develop websites, digital campaigns & short-form content. If you’re interested in working with us on a project write us a line at <a href=\"mailto:hey@jumbo-press.com\" target=\"_blank\">hey@jumbo-press.com</a></p><p>  </p><p><strong>Print Service</strong></p><p>We offer a bespoke risograph print service using our MH9350 two drum risograph printer and a HP DesignJet Z9 Dr giclée find out more about printing with us <a href=\"https://jumbo-press.com/\">here</a></p><p><br/><strong>Features</strong></p><p>It's Nice That <a href=\"https://www.itsnicethat.com/articles/jumbo-press-bubblegum-volume-two-publication-illustration-260121\" target=\"_blank\">https://www.itsnicethat.com/articles/jumbo-press-bubblegum-volume-two-publication-illustration-260121</a></p><p>Creative Boom <a href=\"https://www.creativeboom.com/features/artists-who-design-clothing/\" target=\"_blank\">https://www.creativeboom.com/features/artists-who-design-clothing/</a></p><p>Eye on Design <a href=\"https://eyeondesign.aiga.org/ugly-design-imposter-syndrome-as-an-illustrated-coping-strategy/sander-ettema-friends-in-many-places-064/\" target=\"_blank\">https://eyeondesign.aiga.org/ugly-design-imposter-syndrome-as-an-illustrated-coping-strategy/sander-ettema-friends-in-many-places-064/</a></p><p>People of Print <a href=\"https://www.peopleofprint.com/studio/jumbo-press/\" target=\"_blank\">https://www.peopleofprint.com/studio/jumbo-press/</a></p><p></p><p></p><p><strong>Wholesale</strong></p><p>For all wholesale inquiries, please reach out to us at <a href=\"mailto:hey@jumbo-press.com\" target=\"_blank\">hey@jumbo-press.com</a></p>",
+                    "text": "<p>Founded in 2018 Jumbo is a project by Jake Lucas and Marta Font. Our mission is to help amplify the voices of emerging artists and illustrators. We create and sell unique products & publications with a focus on self-published art, books & prints<\/p><p> <\/p><p><strong>What We Do at Jumbo Studio<\/strong><\/p><p>Jumbo Studio is a creative communications studio focused on design and illustrative solutions for brands. We bring our expertise and network of creatives together to help develop websites, digital campaigns & short-form content. If you’re interested in working with us on a project write us a line at <a href=\"mailto:hey@jumbo-press.com\" target=\"_blank\">hey@jumbo-press.com<\/a><\/p><p>  <\/p><p><strong>Print Service<\/strong><\/p><p>We offer a bespoke risograph print service using our MH9350 two drum risograph printer and a HP DesignJet Z9 Dr giclée find out more about printing with us <a href=\"https:\/\/jumbo-press.com\/\">here<\/a><\/p><p><br\/><strong>Features<\/strong><\/p><p>It's Nice That <a href=\"https:\/\/www.itsnicethat.com\/articles\/jumbo-press-bubblegum-volume-two-publication-illustration-260121\" target=\"_blank\">https:\/\/www.itsnicethat.com\/articles\/jumbo-press-bubblegum-volume-two-publication-illustration-260121<\/a><\/p><p>Creative Boom <a href=\"https:\/\/www.creativeboom.com\/features\/artists-who-design-clothing\/\" target=\"_blank\">https:\/\/www.creativeboom.com\/features\/artists-who-design-clothing\/<\/a><\/p><p>Eye on Design <a href=\"https:\/\/eyeondesign.aiga.org\/ugly-design-imposter-syndrome-as-an-illustrated-coping-strategy\/sander-ettema-friends-in-many-places-064\/\" target=\"_blank\">https:\/\/eyeondesign.aiga.org\/ugly-design-imposter-syndrome-as-an-illustrated-coping-strategy\/sander-ettema-friends-in-many-places-064\/<\/a><\/p><p>People of Print <a href=\"https:\/\/www.peopleofprint.com\/studio\/jumbo-press\/\" target=\"_blank\">https:\/\/www.peopleofprint.com\/studio\/jumbo-press\/<\/a><\/p><p><\/p><p><\/p><p><strong>Wholesale<\/strong><\/p><p>For all wholesale inquiries, please reach out to us at <a href=\"mailto:hey@jumbo-press.com\" target=\"_blank\">hey@jumbo-press.com<\/a><\/p>",
                     "width": "fit-content",
                     "max_width": "narrow",
                     "alignment": "left",
