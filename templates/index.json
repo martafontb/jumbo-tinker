@@ -1116,6 +1116,7 @@
         },
         "custom_slide_p9iTa3": {
           "type": "custom_slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/481258607_28813695241579814_3486766039368207985_n.jpg",
             "cta_link": "https://www.facebook.com/Brightonillustrationfair/",
