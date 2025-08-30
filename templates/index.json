@@ -1109,16 +1109,16 @@
         "custom_slide_fAWLij": {
           "type": "custom_slide",
           "settings": {
-            "image": "shopify://shop_images/Frame_27_2.png",
-            "cta_link": "#",
+            "image": "shopify://shop_images/DIY_Oct_Poster.jpg",
+            "cta_link": "https://diyartmarket.com/",
             "cta_text": "view event"
           }
         },
         "custom_slide_KK8pqn": {
           "type": "custom_slide",
           "settings": {
-            "image": "shopify://shop_images/Frame_27_3.png",
-            "cta_link": "#",
+            "image": "shopify://shop_images/CHRISTMAS_POSTER_DIY_print_small_3b789411-cd6c-4f90-9a29-8568f72acce6.jpg",
+            "cta_link": "https://diyartmarket.com/",
             "cta_text": "view event"
           }
         },
