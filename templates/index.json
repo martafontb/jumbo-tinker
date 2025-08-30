@@ -1090,19 +1090,19 @@
     "custom_image_carousel_KkEerP": {
       "type": "custom-image-carousel",
       "blocks": {
-        "custom_slide_CBbbQQ": {
-          "type": "custom_slide",
-          "settings": {
-            "image": "shopify://shop_images/Pripravte_si_diare_otevrete_Google_kalendare_a_peclive_si_poznamenejte_termin_19._-_28._za.jpg",
-            "cta_link": "https://lustrfestival.cz/en",
-            "cta_text": "view event"
-          }
-        },
         "custom_slide_Ktmf6q": {
           "type": "custom_slide",
           "settings": {
             "image": "shopify://shop_images/Join_us_next_weekend_for_the_annual_PageMasters_Zine_fair_44_publishers_tables_GIA.jpg",
             "cta_link": "https://www.eventbrite.co.uk/e/pagemasters-zine-fair-2025-tickets-1329632058279",
+            "cta_text": "view event"
+          }
+        },
+        "custom_slide_CBbbQQ": {
+          "type": "custom_slide",
+          "settings": {
+            "image": "shopify://shop_images/Pripravte_si_diare_otevrete_Google_kalendare_a_peclive_si_poznamenejte_termin_19._-_28._za.jpg",
+            "cta_link": "https://lustrfestival.cz/en",
             "cta_text": "view event"
           }
         },
@@ -1114,6 +1114,14 @@
             "cta_text": "view event"
           }
         },
+        "custom_slide_p9iTa3": {
+          "type": "custom_slide",
+          "settings": {
+            "image": "shopify://shop_images/481258607_28813695241579814_3486766039368207985_n.jpg",
+            "cta_link": "https://www.facebook.com/Brightonillustrationfair/",
+            "cta_text": "view event"
+          }
+        },
         "custom_slide_KK8pqn": {
           "type": "custom_slide",
           "settings": {
@@ -1121,23 +1129,14 @@
             "cta_link": "https://diyartmarket.com/",
             "cta_text": "view event"
           }
-        },
-        "custom_slide_p9iTa3": {
-          "type": "custom_slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Frame_27_4.png",
-            "cta_link": "",
-            "cta_text": "view event"
-          }
         }
       },
       "block_order": [
-        "custom_slide_CBbbQQ",
         "custom_slide_Ktmf6q",
+        "custom_slide_CBbbQQ",
         "custom_slide_fAWLij",
-        "custom_slide_KK8pqn",
-        "custom_slide_p9iTa3"
+        "custom_slide_p9iTa3",
+        "custom_slide_KK8pqn"
       ],
       "name": "Custom Image Carousel",
       "settings": {
