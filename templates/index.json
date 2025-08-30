@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero_iLBwPd": {
@@ -86,7 +95,7 @@
                   "name": "t:names.button",
                   "settings": {
                     "label": "Shop",
-                    "link": "shopify:\/\/collections\/new",
+                    "link": "shopify://collections/new",
                     "open_in_new_tab": false,
                     "style_class": "button",
                     "width": "fit-content",
@@ -101,7 +110,7 @@
                   "name": "Heading",
                   "disabled": true,
                   "settings": {
-                    "text": "<h2><em>Introducing<\/em><\/h2>",
+                    "text": "<h2><em>Introducing</em></h2>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -128,7 +137,7 @@
                   "type": "text",
                   "disabled": true,
                   "settings": {
-                    "text": "<h1>Our Newest Arrivals <\/h1>",
+                    "text": "<h1>Our Newest Arrivals </h1>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -202,7 +211,7 @@
                   "name": "t:names.button",
                   "settings": {
                     "label": "Print",
-                    "link": "shopify:\/\/pages\/print",
+                    "link": "shopify://pages/print",
                     "open_in_new_tab": false,
                     "style_class": "button",
                     "width": "fit-content",
@@ -217,7 +226,7 @@
                   "name": "Heading",
                   "disabled": true,
                   "settings": {
-                    "text": "<h2><em>Introducing<\/em><\/h2>",
+                    "text": "<h2><em>Introducing</em></h2>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -244,7 +253,7 @@
                   "type": "text",
                   "disabled": true,
                   "settings": {
-                    "text": "<h1>Our Newest Arrivals <\/h1>",
+                    "text": "<h1>Our Newest Arrivals </h1>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -287,9 +296,9 @@
       "name": "t:names.hero",
       "settings": {
         "media_type_1": "image",
-        "image_1": "shopify:\/\/shop_images\/8F1A3362_1.png",
+        "image_1": "shopify://shop_images/8F1A3362_1.png",
         "media_type_2": "image",
-        "image_2": "shopify:\/\/shop_images\/8F1A3273_1.png",
+        "image_2": "shopify://shop_images/8F1A3273_1.png",
         "link": "",
         "open_in_new_tab": false,
         "content_direction": "column",
@@ -320,7 +329,7 @@
         "text_e7w7ix": {
           "type": "text",
           "settings": {
-            "text": "<p>Risograph prints, artist editions, custom printing  and small-batch publications from an independent press with a focus on experimental design, illustration, and graphic art.<\/p>",
+            "text": "<p>Risograph prints, artist editions, custom printing  and small-batch publications from an independent press with a focus on experimental design, illustration, and graphic art.</p>",
             "width": "100%",
             "max_width": "narrow",
             "alignment": "left",
@@ -455,7 +464,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h2>New arrivals<\/h2>",
+                    "text": "<h2>New arrivals</h2>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -483,7 +492,7 @@
                   "name": "t:names.button",
                   "settings": {
                     "label": "Shop now",
-                    "link": "shopify:\/\/collections\/all",
+                    "link": "shopify://collections/all",
                     "open_in_new_tab": false,
                     "style_class": "button",
                     "width": "fit-content",
@@ -685,7 +694,7 @@
           "static": true,
           "settings": {
             "media_type": "image",
-            "image": "shopify:\/\/shop_images\/8F1A3267.jpg",
+            "image": "shopify://shop_images/8F1A3267.jpg",
             "link": "",
             "video_loop": true,
             "video_autoplay": true,
@@ -707,7 +716,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "shopify:\/\/shop_images\/AWALKOUTSIDE7.jpg",
+                "image": "shopify://shop_images/AWALKOUTSIDE7.jpg",
                 "link": "",
                 "image_ratio": "square",
                 "width": "fill",
@@ -729,7 +738,7 @@
             "text_jxGhdJ": {
               "type": "text",
               "settings": {
-                "text": "<p>Jumbo Press is an independent risograph studio and publishing platform dedicated to print as a space for experimentation, collaboration, and community. Specialising in small-run artist editions, zines, and graphic ephemera. <\/p>",
+                "text": "<p>Jumbo Press is an independent risograph studio and publishing platform dedicated to print as a space for experimentation, collaboration, and community. Specialising in small-run artist editions, zines, and graphic ephemera. </p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -756,7 +765,7 @@
               "type": "button",
               "settings": {
                 "label": "Find out more",
-                "link": "shopify:\/\/pages\/print",
+                "link": "shopify://pages/print",
                 "open_in_new_tab": false,
                 "style_class": "button",
                 "width": "fit-content",
@@ -809,7 +818,7 @@
         "text_XHGKPz": {
           "type": "text",
           "settings": {
-            "text": "<p>Jumbo Red<\/p>",
+            "text": "<p>Jumbo Red</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -836,7 +845,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>Jumbo Yellow<\/p>",
+            "text": "<p>Jumbo Yellow</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -863,7 +872,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>Jumbo Green<\/p>",
+            "text": "<p>Jumbo Green</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -890,7 +899,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>Jumbo Blue<\/p>",
+            "text": "<p>Jumbo Blue</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -917,7 +926,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>Jumbo Aqua<\/p>",
+            "text": "<p>Jumbo Aqua</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -944,7 +953,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>Jumbo Purple<\/p>",
+            "text": "<p>Jumbo Purple</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -971,7 +980,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>Jumbo Fluo-Green<\/p>",
+            "text": "<p>Jumbo Fluo-Green</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -1021,7 +1030,7 @@
           "name": "t:names.button",
           "settings": {
             "label": "Our Riso Colours",
-            "link": "shopify:\/\/pages\/print",
+            "link": "shopify://pages/print",
             "open_in_new_tab": false,
             "style_class": "button",
             "width": "fit-content",
@@ -1084,23 +1093,23 @@
         "custom_slide_CBbbQQ": {
           "type": "custom_slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_27.png",
-            "cta_link": "#",
+            "image": "shopify://shop_images/Pripravte_si_diare_otevrete_Google_kalendare_a_peclive_si_poznamenejte_termin_19._-_28._za.jpg",
+            "cta_link": "https://lustrfestival.cz/en",
             "cta_text": "view event"
           }
         },
         "custom_slide_Ktmf6q": {
           "type": "custom_slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/heartware_gallery.jpg",
-            "cta_link": "#",
+            "image": "shopify://shop_images/Join_us_next_weekend_for_the_annual_PageMasters_Zine_fair_44_publishers_tables_GIA.jpg",
+            "cta_link": "https://www.eventbrite.co.uk/e/pagemasters-zine-fair-2025-tickets-1329632058279",
             "cta_text": "view event"
           }
         },
         "custom_slide_fAWLij": {
           "type": "custom_slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_27_2.png",
+            "image": "shopify://shop_images/Frame_27_2.png",
             "cta_link": "#",
             "cta_text": "view event"
           }
@@ -1108,7 +1117,7 @@
         "custom_slide_KK8pqn": {
           "type": "custom_slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_27_3.png",
+            "image": "shopify://shop_images/Frame_27_3.png",
             "cta_link": "#",
             "cta_text": "view event"
           }
@@ -1116,7 +1125,7 @@
         "custom_slide_p9iTa3": {
           "type": "custom_slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_27_4.png",
+            "image": "shopify://shop_images/Frame_27_4.png",
             "cta_link": "",
             "cta_text": "view event"
           }
@@ -1129,10 +1138,9 @@
         "custom_slide_KK8pqn",
         "custom_slide_p9iTa3"
       ],
-      "disabled": true,
       "name": "Custom Image Carousel",
       "settings": {
-        "title": "<h3>Our Agenda<\/h3>",
+        "title": "<h3>Our Agenda</h3>",
         "layout_type": "carousel",
         "carousel_on_mobile": false,
         "columns": 4,
@@ -1213,7 +1221,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<h3>Shop by collection<\/h3>",
+                "text": "<h3>Shop by collection</h3>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
