@@ -1124,6 +1124,7 @@
         },
         "custom_slide_p9iTa3": {
           "type": "custom_slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Frame_27_4.png",
             "cta_link": "",
