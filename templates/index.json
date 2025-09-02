@@ -765,7 +765,7 @@
               "type": "button",
               "settings": {
                 "label": "Find out more",
-                "link": "shopify://pages/print",
+                "link": "shopify://pages/blog",
                 "open_in_new_tab": false,
                 "style_class": "button",
                 "width": "fit-content",
