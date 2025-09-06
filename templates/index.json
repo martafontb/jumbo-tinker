@@ -1114,20 +1114,20 @@
             "cta_text": "view event"
           }
         },
-        "custom_slide_GjdtCf": {
-          "type": "custom_slide",
-          "settings": {
-            "image": "shopify://shop_images/bif_fair.jpg",
-            "cta_link": "https://www.wearebif.co.uk/",
-            "cta_text": "Learn More"
-          }
-        },
         "custom_slide_fAWLij": {
           "type": "custom_slide",
           "settings": {
             "image": "shopify://shop_images/DIY_Oct_Poster.jpg",
             "cta_link": "https://diyartmarket.com/",
             "cta_text": "view event"
+          }
+        },
+        "custom_slide_GjdtCf": {
+          "type": "custom_slide",
+          "settings": {
+            "image": "shopify://shop_images/bif_fair.jpg",
+            "cta_link": "https://www.wearebif.co.uk/",
+            "cta_text": "Learn More"
           }
         },
         "custom_slide_KK8pqn": {
@@ -1143,8 +1143,8 @@
         "custom_slide_Ktmf6q",
         "custom_slide_biHQMT",
         "custom_slide_CBbbQQ",
-        "custom_slide_GjdtCf",
         "custom_slide_fAWLij",
+        "custom_slide_GjdtCf",
         "custom_slide_KK8pqn"
       ],
       "name": "Custom Image Carousel",
