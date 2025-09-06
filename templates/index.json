@@ -1098,6 +1098,14 @@
             "cta_text": "view event"
           }
         },
+        "custom_slide_biHQMT": {
+          "type": "custom_slide",
+          "settings": {
+            "image": "shopify://shop_images/picnic_flyer.jpg",
+            "cta_link": "https://www.grafik.brussels/post/riso-picnic-grafik-with-jumbo-press-barcelona",
+            "cta_text": "Learn More"
+          }
+        },
         "custom_slide_CBbbQQ": {
           "type": "custom_slide",
           "settings": {
@@ -1125,6 +1133,7 @@
       },
       "block_order": [
         "custom_slide_Ktmf6q",
+        "custom_slide_biHQMT",
         "custom_slide_CBbbQQ",
         "custom_slide_fAWLij",
         "custom_slide_KK8pqn"
