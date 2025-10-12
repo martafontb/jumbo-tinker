@@ -1343,9 +1343,9 @@
           "soft-goods",
           "prints-1"
         ],
-        "layout_type": "editorial",
+        "layout_type": "grid",
         "carousel_on_mobile": true,
-        "columns": 3,
+        "columns": 4,
         "mobile_columns": "2",
         "mobile_card_size": "60cqw",
         "columns_gap": 8,
