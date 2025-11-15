@@ -179,7 +179,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<p>About Jumbo{{ closest.page.title }}</p>",
+                    "text": "<p>{{ closest.page.title }}</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
