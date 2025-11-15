@@ -183,7 +183,7 @@
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
-                    "type_preset": "custom",
+                    "type_preset": "h1",
                     "font": "var(--font-body--family)",
                     "font_size": "1.25rem",
                     "line_height": "normal",
