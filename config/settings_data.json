@@ -27,6 +27,7 @@
     "type_case_h5": "none",
     "type_size_h6": "12",
     "type_case_h6": "none",
+    "page_width": "normal",
     "card_hover_effect": "none",
     "badge_corner_radius": 50,
     "badge_sale_color_scheme": "scheme-4",
