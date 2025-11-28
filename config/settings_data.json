@@ -37,6 +37,8 @@
     "secondary_button_border_width": 0,
     "cart_type": "drawer",
     "cart_price_font": "tertiary",
+    "auto_open_cart_drawer": true,
+    "show_cart_note": true,
     "icon_stroke": "thin",
     "inputs_border_radius": 32,
     "popover_border": "none",
