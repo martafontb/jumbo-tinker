@@ -190,6 +190,10 @@
               },
               "blocks": {}
             },
+            "back_in_stock_notify": {
+              "type": "back-in-stock",
+              "settings": {}
+            },
             "group_X39hBc": {
               "type": "group",
               "name": "Values",
@@ -770,6 +774,7 @@
             "price_a7krng",
             "variant_picker_R3rGDr",
             "buy_buttons_eYQEYi",
+            "back_in_stock_notify",
             "product_description_LfDYCg",
             "group_X39hBc",
             "accordion_g8EVVp"

@@ -1,0 +1,164 @@
+{%- comment -%}
+  Back in Stock Notification Block
+  Shows when product is out of stock, allows customers to request notification
+{%- endcomment -%}
+
+{%- liquid
+  assign current_product = closest.product
+  assign show_form = false
+  if current_product.available == false and current_product.handle == 'the-illustrators-cookbook-2'
+    assign show_form = true
+  endif
+-%}
+
+{%- if show_form -%}
+<div class="bis-wrapper" data-product-handle="{{ current_product.handle }}" {{ block.shopify_attributes }}>
+  
+  {%- comment -%} THE FORM - Uses AJAX to prevent page redirect {%- endcomment -%}
+  <form class="bis-form" data-bis-ajax-form>
+    <input type="hidden" name="form_type" value="customer">
+    <input type="hidden" name="utf8" value="✓">
+    <input type="hidden" name="contact[tags]" value="BIS-{{ current_product.handle }}">
+    
+    <div class="bis-form-container" data-bis-form-container>
+      <div class="bis-header">
+        <h3>Get Notified When Back in Stock</h3>
+        <p>Join others waiting for <strong>{{ current_product.title }}</strong> to restock!</p>
+      </div>
+      
+      <div class="bis-input-wrapper">
+        <input 
+          type="email" 
+          name="contact[email]"
+          placeholder="Enter your email"
+          required
+          autocomplete="email"
+          class="bis-email-input"
+        >
+        <button type="submit" class="bis-btn" data-bis-submit>Notify Me</button>
+      </div>
+      
+      <div class="bis-error" data-bis-error style="display:none;"></div>
+      
+      <p class="bis-privacy"><small>We'll only email you once when this is restocked.</small></p>
+    </div>
+    
+    {%- comment -%} SUCCESS MESSAGE {%- endcomment -%}
+    <div class="bis-success" data-bis-success style="display:none;">
+      <div class="bis-success-icon">✓</div>
+      <h3>You're on the list!</h3>
+      <p>We'll email you when <strong>{{ current_product.title }}</strong> is restocked.</p>
+      <small>Expected: Beginning of 2026</small>
+    </div>
+  </form>
+</div>
+{%- endif -%}
+
+{%- comment -%} STYLES - Must be outside conditional {%- endcomment -%}
+{% stylesheet %}
+  .bis-wrapper { 
+    margin: 24px 0; 
+    padding: 24px; 
+    background: #f8f9fa; 
+    border: 1px solid #dee2e6; 
+  }
+  .bis-header h3 { 
+    margin: 0 0 8px; 
+    font-size: 14px; 
+    font-weight: 600;
+  }
+  .bis-header p { 
+    margin: 0 0 16px; 
+    /* color: #6c757d;  */
+    font-size: 13px; 
+  }
+  .bis-input-wrapper { 
+    display: flex; 
+    gap: 8px; 
+    margin-bottom: 12px; 
+  }
+  .bis-email-input { 
+    flex: 1; 
+    padding: 12px 16px; 
+    border: 1px solid #ced4da; 
+    border-radius: 24px;
+    font-size: 13px; 
+  }
+  .bis-btn { 
+    font-size: 13px; 
+    padding: 12px 24px; 
+    background: #212529; 
+    color: white; 
+    border: none; 
+    border-radius: 24px; 
+    cursor: pointer; 
+    font-weight: 500; 
+    white-space: nowrap; 
+  }
+  .bis-btn:hover { 
+    background: #343a40; 
+  }
+  .bis-btn:disabled { 
+    background: #6c757d; 
+    cursor: not-allowed; 
+  }
+  .bis-error { 
+    padding: 12px; 
+    background: #f8d7da; 
+    color: #721c24; 
+    border-radius: 4px; 
+    font-size: 13px; 
+    margin-bottom: 12px; 
+  }
+  .bis-privacy { 
+    margin: 0; 
+    color: #6c757d; 
+    font-size: 13px; 
+  }
+  .bis-success, .bis-already { 
+    text-align: center; 
+    padding: 32px; 
+  }
+  .bis-success-icon, .bis-already-icon { 
+    font-size: 48px; 
+    margin-bottom: 12px; 
+  }
+  .bis-success h3, .bis-already h3 { 
+    margin: 0 0 8px; 
+    font-size: 14px; 
+  }
+  .bis-success p, .bis-already p { 
+    margin: 0 0 8px; 
+    color: #6c757d; 
+  }
+  .bis-success small { 
+    color: #adb5bd; 
+  }
+  
+  @media (max-width: 640px) {
+    .bis-input-wrapper { 
+      flex-direction: column; 
+    }
+    .bis-btn { 
+      width: 100%; 
+    }
+  }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "Back in Stock",
+  "tag": "div",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "This block automatically shows when the product is out of stock. Customers can enter their email to be notified when it's back."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Back in Stock"
+    }
+  ]
+}
+{% endschema %}
