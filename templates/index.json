@@ -1102,7 +1102,7 @@
           "type": "custom_slide",
           "settings": {
             "image": "shopify://shop_images/S25_IG01_1.jpg",
-            "cta_link": "",
+            "cta_link": "https://www.sprintmilano.org/",
             "cta_text": "Learn More"
           }
         },
