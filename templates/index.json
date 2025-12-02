@@ -1090,6 +1090,22 @@
     "custom_image_carousel_KkEerP": {
       "type": "custom-image-carousel",
       "blocks": {
+        "custom_slide_KK8pqn": {
+          "type": "custom_slide",
+          "settings": {
+            "image": "shopify://shop_images/CHRISTMAS_POSTER_DIY_print_small_3b789411-cd6c-4f90-9a29-8568f72acce6.jpg",
+            "cta_link": "https://diyartmarket.com/",
+            "cta_text": "view event"
+          }
+        },
+        "custom_slide_E87Ypz": {
+          "type": "custom_slide",
+          "settings": {
+            "image": "shopify://shop_images/S25_IG01_1.jpg",
+            "cta_link": "",
+            "cta_text": "Learn More"
+          }
+        },
         "custom_slide_Ktmf6q": {
           "type": "custom_slide",
           "settings": {
@@ -1114,14 +1130,6 @@
             "cta_text": "view event"
           }
         },
-        "custom_slide_AeDk7e": {
-          "type": "custom_slide",
-          "settings": {
-            "image": "shopify://shop_images/Screen_Shot_2025-09-30_at_19.47.49.png",
-            "cta_link": "https://dubblefilm.com/?srsltid=AfmBOor3aOhj3pYQMBRqyZbdM0GRvf5L5XhllR0vRaOcIjJliSsBF7h7",
-            "cta_text": "Learn More"
-          }
-        },
         "custom_slide_fAWLij": {
           "type": "custom_slide",
           "settings": {
@@ -1138,23 +1146,24 @@
             "cta_text": "Learn More"
           }
         },
-        "custom_slide_KK8pqn": {
+        "custom_slide_AeDk7e": {
           "type": "custom_slide",
           "settings": {
-            "image": "shopify://shop_images/CHRISTMAS_POSTER_DIY_print_small_3b789411-cd6c-4f90-9a29-8568f72acce6.jpg",
-            "cta_link": "https://diyartmarket.com/",
-            "cta_text": "view event"
+            "image": "shopify://shop_images/Screen_Shot_2025-09-30_at_19.47.49.png",
+            "cta_link": "https://dubblefilm.com/?srsltid=AfmBOor3aOhj3pYQMBRqyZbdM0GRvf5L5XhllR0vRaOcIjJliSsBF7h7",
+            "cta_text": "Learn More"
           }
         }
       },
       "block_order": [
+        "custom_slide_KK8pqn",
+        "custom_slide_E87Ypz",
         "custom_slide_Ktmf6q",
         "custom_slide_biHQMT",
         "custom_slide_CBbbQQ",
-        "custom_slide_AeDk7e",
         "custom_slide_fAWLij",
         "custom_slide_GjdtCf",
-        "custom_slide_KK8pqn"
+        "custom_slide_AeDk7e"
       ],
       "name": "Custom Image Carousel",
       "settings": {
