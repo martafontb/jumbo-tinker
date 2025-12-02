@@ -40,6 +40,7 @@
     "cart_price_font": "tertiary",
     "auto_open_cart_drawer": true,
     "show_cart_note": true,
+    "show_accelerated_checkout_buttons": false,
     "icon_stroke": "thin",
     "inputs_border_radius": 32,
     "popover_border": "none",
