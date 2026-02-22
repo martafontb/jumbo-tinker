@@ -493,7 +493,7 @@
                   "name": "t:names.text",
                   "settings": {
                     "text": "<p>Fresh off the press: new editions, new collaborators, new prints on the wall.</p>",
-                    "width": "fit-content",
+                    "width": "100%",
                     "max_width": "none",
                     "alignment": "left",
                     "type_preset": "rte",
