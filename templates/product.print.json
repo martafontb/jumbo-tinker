@@ -182,7 +182,7 @@
               "type": "product-description",
               "name": "t:names.product_description",
               "settings": {
-                "text": "{{ closest.product.description }}",
+                "text": "{{ closest.product.description }}<p>A note on riso: each print is run through our MH9350 one colour at a time, which means no two come out exactly the same. You might get a slight shift in registration, a ghost roller mark, or a colour that sits a little differently than the photo suggests. That's not a flaw, it's the whole point. These are handmade things.</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
