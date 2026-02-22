@@ -467,7 +467,7 @@
                   "settings": {
                     "text": "<h2>New arrivals</h2>",
                     "width": "fit-content",
-                    "max_width": "normal",
+                    "max_width": "narrow",
                     "alignment": "left",
                     "type_preset": "h3",
                     "font": "var(--font-body--family)",
@@ -493,8 +493,8 @@
                   "name": "t:names.text",
                   "settings": {
                     "text": "<p>Fresh off the press: new editions, new collaborators, new prints on the wall.</p>",
-                    "width": "100%",
-                    "max_width": "none",
+                    "width": "fit-content",
+                    "max_width": "narrow",
                     "alignment": "left",
                     "type_preset": "rte",
                     "font": "var(--font-body--family)",
