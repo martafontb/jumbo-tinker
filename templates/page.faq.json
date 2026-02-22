@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -7,7 +16,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<h3>FAQ<\/h3>",
+            "text": "<h3>FAQ</h3>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -33,8 +42,9 @@
         "text_iTJiAx": {
           "type": "text",
           "name": "t:names.heading",
+          "disabled": true,
           "settings": {
-            "text": "<p><strong>Printing<\/strong><\/p>",
+            "text": "<p><strong>Printing</strong></p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -60,6 +70,7 @@
         "accordion_AMFCYJ": {
           "type": "accordion",
           "name": "t:names.accordion",
+          "disabled": true,
           "settings": {
             "icon": "caret",
             "dividers": true,
@@ -88,7 +99,7 @@
                 "text_VFCfpy": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Giclée is a fine art digital printing process using archival inks and museum-grade paper. It ensures vibrant, long-lasting prints with excellent detail.<\/p>",
+                    "text": "<p>Giclée is a fine art digital printing process using archival inks and museum-grade paper. It ensures vibrant, long-lasting prints with excellent detail.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -128,7 +139,7 @@
                 "text_aUBYxJ": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>We print on Hahnemühle Photo Matt Fibre 200 gsm, a professional museum-quality paper. Other papers are available on request.<\/p>",
+                    "text": "<p>We print on Hahnemühle Photo Matt Fibre 200 gsm, a professional museum-quality paper. Other papers are available on request.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -168,7 +179,7 @@
                 "text_YfcUFM": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Yes. We offer printing services for artists, illustrators, and photographers. See our “Print with us” page for details.<\/p>",
+                    "text": "<p>Yes. We offer printing services for artists, illustrators, and photographers. See our “Print with us” page for details.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -209,7 +220,7 @@
                 "text_ED4Y76": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Yes. Our pricing decreases for larger runs — see our pricing guide.<\/p>",
+                    "text": "<p>Yes. Our pricing decreases for larger runs — see our pricing guide.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -249,7 +260,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<p><strong>Shop & Orders<\/strong><\/p>",
+            "text": "<p><strong>Shop & Orders</strong></p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -303,7 +314,7 @@
                 "text_yxXgKK": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Standard processing is 5–7 working days. For urgent jobs, please contact us.<\/p>",
+                    "text": "<p>Standard processing is 5–7 working days. For urgent jobs, please contact us.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -343,7 +354,7 @@
                 "text_3Dhy4X": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Yes. We ship worldwide. Shipping costs are calculated at checkout.<\/p>",
+                    "text": "<p>Yes. We ship worldwide. Shipping costs are calculated at checkout.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -383,7 +394,7 @@
                 "text_MMjAPT": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Because our products are printed to order, we only accept returns if the item arrives damaged or incorrect. Please contact us within 7 days of delivery.<\/p>",
+                    "text": "<p>Because our products are printed to order, we only accept returns if the item arrives damaged or incorrect. Please contact us within 7 days of delivery.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -422,7 +433,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<p><strong>Payments<\/strong><\/p>",
+            "text": "<p><strong>Payments</strong></p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -476,7 +487,7 @@
                 "text_P8icHN": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>We accept credit\/debit cards, PayPal, and bank transfer (for local orders).<\/p>",
+                    "text": "<p>We accept credit/debit cards, PayPal, and bank transfer (for local orders).</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -517,7 +528,7 @@
                 "text_GWfN7T": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Yes. All prices include VAT where applicable.<\/p>",
+                    "text": "<p>Yes. All prices include VAT where applicable.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
