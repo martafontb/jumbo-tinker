@@ -491,6 +491,7 @@
                 "text_BQC64j": {
                   "type": "text",
                   "name": "t:names.text",
+                  "disabled": true,
                   "settings": {
                     "text": "<p>Fresh off the press: new editions, new collaborators, new prints on the wall.</p>",
                     "width": "fit-content",
