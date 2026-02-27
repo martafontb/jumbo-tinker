@@ -693,6 +693,7 @@
               "blocks": {
                 "accordion_row_VyFryh": {
                   "type": "_accordion-row",
+                  "disabled": true,
                   "settings": {
                     "heading": "Details",
                     "open_by_default": false,
