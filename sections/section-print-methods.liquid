@@ -27,16 +27,24 @@
     grid-template-columns: 1.2fr 0.8fr;
     gap: var(--gap-3xl);
     align-items: end;
+    border-top: 3px solid var(--riso);
     border-bottom: var(--style-border-width, 1px) solid var(--ink);
+    padding-top: var(--padding-3xl);
     padding-bottom: var(--padding-4xl);
     margin-bottom: var(--padding-6xl);
   }
 
   .jp-methods__eyebrow {
-    font-size: 0.6rem;
-    letter-spacing: var(--letter-spacing-md);
+    display: inline-block;
+    font-family: var(--font-body--family);
+    font-size: var(--font-size--2xs, 0.625rem);
+    font-weight: 700;
+    letter-spacing: var(--letter-spacing-md, 0.13em);
     text-transform: uppercase;
-    color: var(--mid);
+    line-height: 1;
+    padding: 0.25em 0.6em;
+    background-color: var(--ink);
+    color: var(--bg);
     margin-bottom: 1rem;
   }
 

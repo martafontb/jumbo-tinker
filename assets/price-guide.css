@@ -19,6 +19,63 @@
   gap: var(--gap-3xl, 3rem);
 }
 
+/* ── Intro header ─────────────────────────────────────────────────────────── */
+
+.price-guide__intro {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: var(--gap-3xl, 3rem);
+  align-items: end;
+  border-top: 3px solid var(--pg-riso);
+  border-bottom: 1px solid rgb(var(--color-foreground-rgb));
+  padding-top: 2rem;
+  padding-bottom: 2.5rem;
+  margin-bottom: 0; /* gap handled by .price-guide flex gap */
+}
+
+.price-guide__eyebrow {
+  display: inline-block;
+  font-family: var(--font-body--family);
+  font-size: var(--font-size--2xs, 0.625rem);
+  font-weight: 700;
+  letter-spacing: var(--letter-spacing-md, 0.13em);
+  text-transform: uppercase;
+  line-height: 1;
+  padding: 0.25em 0.6em;
+  background-color: rgb(var(--color-foreground-rgb));
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.price-guide__intro-heading {
+  font-family: var(--font-heading--family);
+  font-size: clamp(var(--font-size--3xl, 1.75rem), 5vw, var(--font-size--6xl, 3.5rem));
+  font-weight: 900;
+  line-height: 0.95;
+  letter-spacing: var(--letter-spacing--display-tight);
+  margin: 0;
+}
+
+.price-guide__intro-heading em {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.price-guide__intro-body {
+  font-size: 0.725rem;
+  line-height: 1.25;
+  color: rgb(var(--color-foreground-rgb));
+  margin: 0;
+  align-self: end;
+}
+
+@media screen and (max-width: 749px) {
+  .price-guide__intro {
+    grid-template-columns: 1fr;
+    gap: var(--gap-xl, 1rem);
+  }
+}
+
 /* ── Hero image ──────────────────────────────────────────────────────────── */
 
 .price-guide__hero {

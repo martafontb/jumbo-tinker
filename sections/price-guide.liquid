@@ -7,6 +7,18 @@
     style="{% render 'spacing-style', settings: section.settings %}"
   >
 
+    {%- if section.settings.heading != blank -%}
+      <header class="price-guide__intro">
+        <div>
+          <span class="price-guide__eyebrow">{{ section.settings.eyebrow | default: 'Our pricing' }}</span>
+          <h2 class="price-guide__intro-heading">{{ section.settings.heading }}</h2>
+        </div>
+        {%- if section.settings.intro_text != blank -%}
+          <p class="price-guide__intro-body">{{ section.settings.intro_text }}</p>
+        {%- endif -%}
+      </header>
+    {%- endif -%}
+
     {%- if section.settings.show_image and section.settings.image != blank -%}
       <div class="price-guide__hero">
         <img
@@ -152,6 +164,28 @@
     "groups": ["header"]
   },
   "settings": [
+    {
+      "type": "header",
+      "content": "Intro header"
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow tag",
+      "default": "Our pricing"
+    },
+    {
+      "type": "html",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Print <em>pricing</em>"
+    },
+    {
+      "type": "textarea",
+      "id": "intro_text",
+      "label": "Intro paragraph",
+      "default": "Risograph up to A3, Giclée up to A1. Get in touch for custom sizes or quantities."
+    },
     {
       "type": "header",
       "content": "Hero image"

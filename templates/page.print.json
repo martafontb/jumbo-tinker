@@ -125,9 +125,9 @@
         "eyebrow": "Risograph · Inks",
         "title": "Our <em>Colours<\/em>",
         "description": "All inks are translucent — overlapping layers create secondary tones. Hex codes are approximate; screen rendering varies from print output.",
-        "footer_note": "",
-        "cta_label": "Get in touch",
-        "cta_url": "",
+        "footer_note": "Riso inks are transparent — layering two colours creates a third. Yellow + Blue makes green, Pink + Blue makes purple, Orange + Blue makes brown. Mix intentionally.",
+        "cta_label": "Start a project",
+        "cta_url": "mailto:hey@jumbo-press.com",
         "padding_top": 80,
         "padding_bottom": 80
       }
@@ -304,10 +304,10 @@
       "settings": {
         "eyebrow": "Printing Methods",
         "heading": "How we <em>print<\/em>",
-        "intro_text": "",
+        "intro_text": "Every print we make is hands-on. We work with you from file prep to final trim — if you're new to Riso or Giclée, we'll guide you through it.",
         "cta_text": "Got a project in mind?",
-        "cta_label": "Get in touch",
-        "cta_url": "",
+        "cta_label": "Start a project",
+        "cta_url": "mailto:hey@jumbo-press.com",
         "padding_top": 80,
         "padding_bottom": 80
       }
