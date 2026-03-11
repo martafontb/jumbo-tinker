@@ -1,0 +1,272 @@
+{% comment %}
+  section-print-colours.liquid
+{% endcomment %}
+
+<style>
+  .jp-colours {
+    --ink: var(--color-foreground);
+    --mid: rgba(var(--color-foreground-rgb), 0.55);
+    --bg: var(--color-background);
+    --rule: var(--color-border);
+    padding: {{ section.settings.padding_top }}px 0 {{ section.settings.padding_bottom }}px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .jp-colours::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .jp-colours__inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--padding-4xl);
+    position: relative;
+    z-index: 1;
+  }
+
+  .jp-colours__header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--gap-2xl);
+    align-items: end;
+    border-bottom: var(--style-border-width, 1px) solid var(--ink);
+    padding-bottom: var(--padding-2xl);
+    margin-bottom: var(--padding-5xl);
+  }
+
+  .jp-colours__eyebrow {
+    font-size: 0.6rem;
+    letter-spacing: var(--letter-spacing-md);
+    text-transform: uppercase;
+    color: var(--mid);
+    margin-bottom: 0.75rem;
+  }
+
+  .jp-colours__title {
+    font-family: var(--font-heading--family);
+    font-size: clamp(var(--font-size--3xl), 4vw, var(--font-size--6xl));
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: var(--letter-spacing--display-tight);
+    margin: 0;
+  }
+
+  .jp-colours__title em {
+    font-style: italic;
+    font-weight: 400;
+  }
+
+  .jp-colours__desc {
+    font-size: 0.75rem;
+    line-height: 1.25;
+    color: var(--mid);
+    max-width: 380px;
+    align-self: end;
+    justify-self: end;
+    text-align: right;
+    text-wrap: balance;
+  }
+
+  .jp-colours__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 0;
+  }
+
+  .jp-colour-swatch {
+    display: flex;
+    flex-direction: column;
+    border: var(--style-border-width, 1px) solid var(--rule);
+    margin: -1px 0 0 -1px;
+    cursor: default;
+    transition: transform var(--hover-transition-duration) var(--hover-transition-timing), z-index 0s;
+    position: relative;
+  }
+
+  .jp-colour-swatch:hover {
+    transform: scale(var(--hover-scale-amount, 1.04));
+    z-index: 2;
+    border-color: var(--ink);
+  }
+
+  .jp-colour-swatch__blob {
+    width: 100%;
+    aspect-ratio: 1;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .jp-colour-swatch__blob::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at 30% 30%, rgba(255,255,255,0.2) 0%, transparent 60%);
+  }
+
+  .jp-colour-swatch__info {
+    padding: 0.65rem 0.75rem;
+    border-top: var(--style-border-width, 1px) solid var(--rule);
+    background: var(--bg);
+  }
+
+  .jp-colour-swatch__name {
+    font-size: 0.6rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-bottom: 0.2rem;
+    color: var(--ink);
+  }
+
+  .jp-colour-swatch__hex {
+    font-size: 0.58rem;
+    color: var(--mid);
+    letter-spacing: 0.04em;
+    font-style: italic;
+  }
+
+  .jp-colours__note {
+    margin-top: 2.5rem;
+    padding-top: var(--padding-2xl);
+    border-top: var(--style-border-width, 1px) solid var(--rule);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--gap-2xl);
+  }
+
+  .jp-colours__note p {
+    font-size: 0.725rem;
+    color: var(--mid);
+    line-height: 1.25;
+    max-width: 560px;
+    margin: 0;
+    text-wrap: balance;
+  }
+
+  .jp-colours__note a {
+    font-size: 0.65rem;
+    color: var(--ink);
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--ink);
+    padding-bottom: 1px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .jp-colours__note a:hover {
+    color: var(--mid);
+    border-color: var(--mid);
+  }
+
+  @media (max-width: 768px) {
+    .jp-colours__header {
+      grid-template-columns: 1fr;
+    }
+    .jp-colours__desc {
+      text-align: left;
+      justify-self: start;
+    }
+    .jp-colours__grid {
+      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    }
+    .jp-colours__note {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .jp-colours {
+      padding-top: calc({{ section.settings.padding_top }}px * var(--spacing-scale-sm, 0.6));
+      padding-bottom: calc({{ section.settings.padding_bottom }}px * var(--spacing-scale-sm, 0.6));
+    }
+  }
+</style>
+
+<section class="jp-colours" id="jumbo-colours">
+  <div class="jp-colours__inner">
+
+    <header class="jp-colours__header">
+      <div>
+        <p class="jp-colours__eyebrow">{{ section.settings.eyebrow | default: 'Risograph · Inks' }}</p>
+        <h2 class="jp-colours__title">{{ section.settings.title | default: 'Our <em>Colours</em>' }}</h2>
+      </div>
+      <p class="jp-colours__desc">{{ section.settings.description | default: 'All inks are translucent — overlapping layers create secondary tones. Hex codes are approximate; screen rendering varies from print output.' }}</p>
+    </header>
+
+    <div class="jp-colours__grid">
+      {% for block in section.blocks %}
+        {% if block.type == 'colour' %}
+          <div class="jp-colour-swatch" {{ block.shopify_attributes }}>
+            <div class="jp-colour-swatch__blob" style="background-color: {{ block.settings.hex }};"></div>
+            <div class="jp-colour-swatch__info">
+              <div class="jp-colour-swatch__name">{{ block.settings.name }}</div>
+              <div class="jp-colour-swatch__hex">{{ block.settings.hex }}</div>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <div class="jp-colours__note">
+      <p>{{ section.settings.footer_note | default: 'Looking for a colour not listed? Get in touch — we may have recently added it to our collection. Custom ink mixes available on request.' }}</p>
+      {% if section.settings.cta_label != blank %}
+        <a href="{{ section.settings.cta_url | default: 'mailto:hey@jumbo-press.com' }}">{{ section.settings.cta_label }}</a>
+      {% endif %}
+    </div>
+
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Print Colours",
+  "tag": "section",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow text", "default": "Risograph · Inks" },
+    { "type": "html", "id": "title", "label": "Section title", "default": "Our <em>Colours</em>" },
+    { "type": "textarea", "id": "description", "label": "Description", "default": "All inks are translucent — overlapping layers create secondary tones. Hex codes are approximate; screen rendering varies from print output." },
+    { "type": "textarea", "id": "footer_note", "label": "Footer note" },
+    { "type": "text", "id": "cta_label", "label": "CTA label", "default": "Get in touch" },
+    { "type": "url", "id": "cta_url", "label": "CTA URL" },
+    { "type": "range", "id": "padding_top", "min": 40, "max": 160, "step": 8, "unit": "px", "label": "Padding top", "default": 80 },
+    { "type": "range", "id": "padding_bottom", "min": 40, "max": 160, "step": 8, "unit": "px", "label": "Padding bottom", "default": 80 }
+  ],
+  "blocks": [
+    {
+      "type": "colour",
+      "name": "Ink Colour",
+      "settings": [
+        { "type": "text", "id": "name", "label": "Colour name", "default": "Fluorescent Pink" },
+        { "type": "text", "id": "hex", "label": "Hex code", "default": "#FF48B0", "info": "Include the # symbol" }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Print Colours",
+      "blocks": [
+        { "type": "colour", "settings": { "name": "Black", "hex": "#212121" } },
+        { "type": "colour", "settings": { "name": "Fl. Pink", "hex": "#FF48B0" } },
+        { "type": "colour", "settings": { "name": "Fl. Orange", "hex": "#FF7322" } },
+        { "type": "colour", "settings": { "name": "Red", "hex": "#FF665E" } },
+        { "type": "colour", "settings": { "name": "Burgundy", "hex": "#914E72" } },
+        { "type": "colour", "settings": { "name": "Blue", "hex": "#0078BF" } },
+        { "type": "colour", "settings": { "name": "Bright Blue", "hex": "#4892C0" } },
+        { "type": "colour", "settings": { "name": "Teal", "hex": "#00827F" } },
+        { "type": "colour", "settings": { "name": "Green", "hex": "#00A95C" } },
+        { "type": "colour", "settings": { "name": "Yellow", "hex": "#FFE900" } },
+        { "type": "colour", "settings": { "name": "Gold", "hex": "#AC8E33" } },
+        { "type": "colour", "settings": { "name": "Cornflower", "hex": "#62A8E5" } }
+      ]
+    }
+  ]
+}
+{% endschema %}
