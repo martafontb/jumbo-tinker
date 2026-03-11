@@ -242,6 +242,7 @@
     margin-top: var(--padding-6xl);
     padding: 2.5rem var(--padding-5xl);
     border: var(--style-border-width, 1px) solid var(--ink);
+    border-left: 3px solid var(--riso);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -250,7 +251,7 @@
 
   .jp-methods__cta-text {
     font-family: var(--font-heading--family);
-    font-size: clamp(var(--font-size--lg), 2vw, var(--font-size--2xl));
+    font-size: clamp(var(--font-size--md), 2vw, var(--font-size--lg));
     font-style: italic;
     margin: 0;
     font-weight: 400;
@@ -293,6 +294,7 @@
       flex-direction: column;
       align-items: flex-start;
       padding: var(--padding-2xl);
+      margin-top: var(--padding-5xl);
     }
     .jp-methods {
       padding-top: calc({{ section.settings.padding_top }}px * var(--spacing-scale-sm, 0.6));
@@ -431,9 +433,10 @@
 
     {% if section.settings.cta_text != blank %}
       <div class="jp-methods__cta">
+        {% comment %} <span aria-hidden="true">校了</span> {% endcomment %}
         <p class="jp-methods__cta-text">{{ section.settings.cta_text }}</p>
         <a href="{{ section.settings.cta_url | default: 'mailto:hey@jumbo-press.com' }}" class="jp-methods__cta-link">
-          {{ section.settings.cta_label | default: 'Get in touch' }}
+          {{ section.settings.cta_label | default: 'Get in touch' }} 
         </a>
       </div>
     {% endif %}
