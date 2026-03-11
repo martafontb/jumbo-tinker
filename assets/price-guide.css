@@ -1,0 +1,232 @@
+/* ─── Price Guide Section ─────────────────────────────────────────────────── */
+
+/*
+  Accent palette (risograph / Japanese print shop)
+  --pg-riso:   beni-red   — classic single-colour riso ink
+  --pg-giclee: ai-indigo  — Japanese indigo, precision printing
+  --pg-mark:   yamabuki   — golden yellow, used as highlight dot
+*/
+:root {
+  --pg-riso:   #E62E17;
+  --pg-giclee: #0078BF;
+}
+
+/* ── Wrapper ─────────────────────────────────────────────────────────────── */
+
+.price-guide {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-3xl, 3rem);
+}
+
+/* ── Hero image ──────────────────────────────────────────────────────────── */
+
+.price-guide__hero {
+  width: 100%;
+  max-width: var(--normal-content-width, 42rem);
+  margin: 0 auto;
+}
+
+.price-guide__hero-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* ── Two-column grid ─────────────────────────────────────────────────────── */
+
+.price-guide__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--gap-3xl, 3rem);
+}
+
+@media screen and (min-width: 750px) {
+  .price-guide__grid {
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    gap: var(--gap-2xl, 2rem);
+  }
+}
+
+/* ── Section card ────────────────────────────────────────────────────────── */
+
+.price-guide__section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-lg, 1rem);
+  padding: var(--padding-2xl, 1.5rem);
+  min-width: 0; /* prevent grid blowout */
+  overflow: hidden;
+  /* coloured left rule — overridden per variant below */
+  border-left: 4px solid transparent;
+}
+
+.price-guide__section--riso {
+  border-left-color: var(--pg-riso);
+  background-color: color-mix(in srgb, var(--pg-riso) 5%, transparent);
+}
+
+.price-guide__section--giclee {
+  border-left-color: var(--pg-giclee);
+  background-color: color-mix(in srgb, var(--pg-giclee) 5%, transparent);
+}
+
+/* ── Ink tag (stamp-style label above heading) ───────────────────────────── */
+
+.price-guide__ink-tag {
+  display: inline-block;
+  font-family: var(--font-body--family);
+  font-size: var(--font-size--2xs, 0.625rem);
+  font-weight: 700;
+  letter-spacing: var(--letter-spacing-md, 0.13em);
+  text-transform: uppercase;
+  line-height: 1;
+  padding: 0.25em 0.6em;
+  /* variant colours applied below */
+}
+
+.price-guide__section--riso  .price-guide__ink-tag {
+  background-color: var(--pg-riso);
+  color: #fff;
+}
+
+.price-guide__section--giclee .price-guide__ink-tag {
+  background-color: var(--pg-giclee);
+  color: #fff;
+}
+
+/* ── Section header ──────────────────────────────────────────────────────── */
+
+.price-guide__section-header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-xs, 0.5rem);
+}
+
+.price-guide__section-title {
+  font-family: var(--font-body--family);
+  font-size: var(--font-size--lg);
+  font-weight: 500;
+  line-height: var(--line-height--heading-tight, 1.15);
+  color: rgb(var(--color-foreground-rgb));
+  /* text-transform: uppercase; */
+  margin: 0;
+}
+
+.price-guide__section-subtitle {
+  font-family: var(--font-body--family);
+  font-size: var(--font-size--sm, 0.875rem);
+  line-height: var(--line-height--body-normal, 1.4);
+  color: rgb(var(--color-foreground-rgb) / var(--opacity-subdued-text, 0.7));
+  margin: 0;
+}
+
+/* ── Table ───────────────────────────────────────────────────────────────── */
+
+/* scroll rather than overflow on narrow screens */
+.rte-table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.price-guide__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-body--family);
+  font-size: var(--font-size--sm, 0.875rem);
+  line-height: var(--line-height--body-normal, 1.4);
+}
+
+/* Column headers */
+.price-guide__th {
+  padding-inline: var(--padding-md, 0.8rem);
+  padding-block: var(--padding-sm, 0.7rem);
+  text-align: start;
+  font-weight: 700;
+  font-size: var(--font-size--2xs, 0.625rem);
+  letter-spacing: var(--letter-spacing-md, 0.13em);
+  text-transform: uppercase;
+  color: rgb(var(--color-foreground-rgb) / var(--opacity-subdued-text, 0.7));
+  white-space: nowrap;
+}
+
+.price-guide__th--label {
+  min-width: 5rem;
+}
+
+/* Accent underline on thead — colour per section variant */
+.price-guide__section--riso   .price-guide__th {
+  border-bottom: 2px solid color-mix(in srgb, var(--pg-riso) 40%, transparent);
+}
+
+.price-guide__section--giclee .price-guide__th {
+  border-bottom: 2px solid color-mix(in srgb, var(--pg-giclee) 40%, transparent);
+}
+
+/* Price cells */
+.price-guide__td {
+  padding-inline: var(--padding-md, 0.8rem);
+  padding-block: var(--padding-sm, 0.7rem);
+  text-align: start;
+  font-variant-numeric: tabular-nums;
+  border-bottom: 1px solid rgb(var(--color-foreground-rgb) / 0.08);
+  color: rgb(var(--color-foreground-rgb));
+}
+
+/* Row labels */
+.price-guide__row-label {
+  padding-inline: var(--padding-md, 0.8rem);
+  padding-block: var(--padding-sm, 0.7rem);
+  text-align: start;
+  font-weight: 500;
+  color: rgb(var(--color-foreground-rgb));
+  border-bottom: 1px solid rgb(var(--color-foreground-rgb) / 0.08);
+  white-space: nowrap;
+}
+
+/* Zebra stripe */
+.price-guide__table tbody tr:nth-child(even) td,
+.price-guide__table tbody tr:nth-child(even) th {
+  background-color: rgb(var(--color-foreground-rgb) / 0.03);
+}
+
+/* Hover */
+@media (hover: hover) {
+  .price-guide__section--riso .price-guide__table tbody tr:hover td,
+  .price-guide__section--riso .price-guide__table tbody tr:hover th {
+    background-color: color-mix(in srgb, var(--pg-riso) 8%, transparent);
+  }
+
+  .price-guide__section--giclee .price-guide__table tbody tr:hover td,
+  .price-guide__section--giclee .price-guide__table tbody tr:hover th {
+    background-color: color-mix(in srgb, var(--pg-giclee) 8%, transparent);
+  }
+}
+
+/* ── Note ────────────────────────────────────────────────────────────────── */
+
+.price-guide__note {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.4em;
+  font-family: var(--font-body--family);
+  font-size: var(--font-size--xs, 0.8125rem);
+  font-style: italic;
+  line-height: var(--line-height--body-normal, 1.4);
+  color: rgb(var(--color-foreground-rgb) / var(--opacity-subdued-text, 0.7));
+  margin: 0;
+}
+
+/* yamabuki bullet before the note */
+.price-guide__note::before {
+  content: '';
+  display: inline-block;
+  flex-shrink: 0;
+  width: 0.45em;
+  height: 0.45em;
+  margin-top: 0.4em;
+  border-radius: 50%;
+  background-color: var(--color-foreground);
+}

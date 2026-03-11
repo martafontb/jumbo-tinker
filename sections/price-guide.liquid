@@ -1,0 +1,255 @@
+{{ 'price-guide.css' | asset_url | stylesheet_tag }}
+
+<div class="section-background color-{{ section.settings.color_scheme }}"></div>
+<div class="section page-width-normal color-{{ section.settings.color_scheme }}">
+  <div
+    class="price-guide spacing-style"
+    style="{% render 'spacing-style', settings: section.settings %}"
+  >
+
+    {%- if section.settings.show_image and section.settings.image != blank -%}
+      <div class="price-guide__hero">
+        <img
+          src="{{ section.settings.image | image_url: width: 1200 }}"
+          alt="{{ section.settings.image.alt | default: 'Jumbo Press price guide' | escape }}"
+          width="{{ section.settings.image.width }}"
+          height="{{ section.settings.image.height }}"
+          loading="lazy"
+          class="price-guide__hero-img"
+        >
+      </div>
+    {%- endif -%}
+
+    <div class="price-guide__grid">
+
+      {%- comment -%} ── RISOGRAPH ── {%- endcomment -%}
+      <section class="price-guide__section price-guide__section--riso" aria-labelledby="riso-heading">
+        <header class="price-guide__section-header">
+          <span class="price-guide__ink-tag" aria-hidden="true">RISO</span>
+          <h2 class="price-guide__section-title" id="riso-heading">
+            {{- section.settings.riso_title -}}
+          </h2>
+          <p class="price-guide__section-subtitle">
+            {{- section.settings.riso_subtitle -}}
+          </p>
+        </header>
+
+        <div class="rte-table-wrapper">
+          <table class="price-guide__table" aria-label="{{ section.settings.riso_title }}">
+            <thead>
+              <tr>
+                <th scope="col" class="price-guide__th price-guide__th--label">Colors</th>
+                <th scope="col" class="price-guide__th">30 copies</th>
+                <th scope="col" class="price-guide__th">50 copies</th>
+                <th scope="col" class="price-guide__th">100 copies</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" class="price-guide__row-label">1 color</th>
+                <td class="price-guide__td">€35</td>
+                <td class="price-guide__td">€45</td>
+                <td class="price-guide__td">€55</td>
+              </tr>
+              <tr>
+                <th scope="row" class="price-guide__row-label">2 colors</th>
+                <td class="price-guide__td">€45</td>
+                <td class="price-guide__td">€55</td>
+                <td class="price-guide__td">€80</td>
+              </tr>
+              <tr>
+                <th scope="row" class="price-guide__row-label">3 colors</th>
+                <td class="price-guide__td">€60</td>
+                <td class="price-guide__td">€75</td>
+                <td class="price-guide__td">€105</td>
+              </tr>
+              <tr>
+                <th scope="row" class="price-guide__row-label">4 colors</th>
+                <td class="price-guide__td">€80</td>
+                <td class="price-guide__td">€95</td>
+                <td class="price-guide__td">€130</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        {%- if section.settings.riso_note != blank -%}
+          <p class="price-guide__note">{{ section.settings.riso_note }}</p>
+        {%- endif -%}
+      </section>
+
+      {%- comment -%} ── GICLÉE ── {%- endcomment -%}
+      <section class="price-guide__section price-guide__section--giclee" aria-labelledby="giclee-heading">
+        <header class="price-guide__section-header">
+          <span class="price-guide__ink-tag" aria-hidden="true">GICLÉE</span>
+          <h2 class="price-guide__section-title" id="giclee-heading">
+            {{- section.settings.giclee_title -}}
+          </h2>
+          <p class="price-guide__section-subtitle">
+            {{- section.settings.giclee_subtitle -}}
+          </p>
+        </header>
+
+        <div class="rte-table-wrapper">
+          <table class="price-guide__table" aria-label="{{ section.settings.giclee_title }}">
+            <thead>
+              <tr>
+                <th scope="col" class="price-guide__th price-guide__th--label">Size</th>
+                <th scope="col" class="price-guide__th">1–2 copies</th>
+                <th scope="col" class="price-guide__th">3–5</th>
+                <th scope="col" class="price-guide__th">6–10</th>
+                <th scope="col" class="price-guide__th">10+</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" class="price-guide__row-label">A4</th>
+                <td class="price-guide__td">€15</td>
+                <td class="price-guide__td">€12</td>
+                <td class="price-guide__td">€10</td>
+                <td class="price-guide__td">€8</td>
+              </tr>
+              <tr>
+                <th scope="row" class="price-guide__row-label">A3</th>
+                <td class="price-guide__td">€25</td>
+                <td class="price-guide__td">€22</td>
+                <td class="price-guide__td">€18</td>
+                <td class="price-guide__td">€15</td>
+              </tr>
+              <tr>
+                <th scope="row" class="price-guide__row-label">A2</th>
+                <td class="price-guide__td">€40</td>
+                <td class="price-guide__td">€35</td>
+                <td class="price-guide__td">€30</td>
+                <td class="price-guide__td">€25</td>
+              </tr>
+              <tr>
+                <th scope="row" class="price-guide__row-label">A1</th>
+                <td class="price-guide__td">€65</td>
+                <td class="price-guide__td">€60</td>
+                <td class="price-guide__td">€55</td>
+                <td class="price-guide__td">€50</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        {%- if section.settings.giclee_note != blank -%}
+          <p class="price-guide__note">{{ section.settings.giclee_note }}</p>
+        {%- endif -%}
+      </section>
+
+    </div>{%- comment -%} /.price-guide__grid {%- endcomment -%}
+  </div>{%- comment -%} /.price-guide {%- endcomment -%}
+</div>
+
+{% schema %}
+{
+  "name": "Price Guide",
+  "class": "section-wrapper",
+  "tag": "div",
+  "disabled_on": {
+    "groups": ["header"]
+  },
+  "settings": [
+    {
+      "type": "header",
+      "content": "Hero image"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_image",
+      "label": "Show image",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "header",
+      "content": "Risograph"
+    },
+    {
+      "type": "text",
+      "id": "riso_title",
+      "label": "Title",
+      "default": "Risograph price guide"
+    },
+    {
+      "type": "text",
+      "id": "riso_subtitle",
+      "label": "Subtitle",
+      "default": "A3 prints · 200g Fedrigoni natural paper"
+    },
+    {
+      "type": "text",
+      "id": "riso_note",
+      "label": "Note",
+      "default": "All prices per edition. Setup fee may apply for new files."
+    },
+    {
+      "type": "header",
+      "content": "Giclée"
+    },
+    {
+      "type": "text",
+      "id": "giclee_title",
+      "label": "Title",
+      "default": "Giclée price guide"
+    },
+    {
+      "type": "text",
+      "id": "giclee_subtitle",
+      "label": "Subtitle",
+      "default": "Hahnemühle 200gsm · museum grade pigment inks"
+    },
+    {
+      "type": "text",
+      "id": "giclee_note",
+      "label": "Note",
+      "default": "Museum grade printing using archival pigment-based inks."
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding-block-start",
+      "label": "Top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding-block-end",
+      "label": "Bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "default": 80
+    }
+  ],
+  "presets": [
+    {
+      "name": "Price Guide"
+    }
+  ]
+}
+{% endschema %}
