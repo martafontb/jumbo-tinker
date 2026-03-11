@@ -1,14 +1,317 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
+    "section_print_colours_rUDLxb": {
+      "type": "section-print-colours",
+      "blocks": {
+        "colour_YgEeBX": {
+          "type": "colour",
+          "settings": {
+            "name": "Black",
+            "hex": "#000000"
+          }
+        },
+        "colour_XVTCWT": {
+          "type": "colour",
+          "settings": {
+            "name": "Fl. Pink",
+            "hex": "#FF48B0"
+          }
+        },
+        "colour_nmV9LN": {
+          "type": "colour",
+          "settings": {
+            "name": "Fl. Orange",
+            "hex": "#FF7477"
+          }
+        },
+        "colour_erzQ4Y": {
+          "type": "colour",
+          "settings": {
+            "name": "Flo Green",
+            "hex": "#44D62C"
+          }
+        },
+        "colour_krhyaL": {
+          "type": "colour",
+          "settings": {
+            "name": "Red",
+            "hex": "#FF665E"
+          }
+        },
+        "colour_EJQTMH": {
+          "type": "colour",
+          "disabled": true,
+          "settings": {
+            "name": "Burgundy",
+            "hex": "#914E72"
+          }
+        },
+        "colour_TTPfYi": {
+          "type": "colour",
+          "settings": {
+            "name": "Blue",
+            "hex": "#0078BF"
+          }
+        },
+        "colour_DVxf6x": {
+          "type": "colour",
+          "disabled": true,
+          "settings": {
+            "name": "Bright Blue",
+            "hex": "#4892C0"
+          }
+        },
+        "colour_3GygAa": {
+          "type": "colour",
+          "settings": {
+            "name": "Aqua",
+            "hex": "#5EC8E5"
+          }
+        },
+        "colour_RUCFBX": {
+          "type": "colour",
+          "settings": {
+            "name": "Teal",
+            "hex": "#00838A"
+          }
+        },
+        "colour_CzNLjA": {
+          "type": "colour",
+          "settings": {
+            "name": "Green",
+            "hex": "#01A458"
+          }
+        },
+        "colour_4qWyge": {
+          "type": "colour",
+          "settings": {
+            "name": "Yellow",
+            "hex": "#FFE900"
+          }
+        },
+        "colour_9Xmfj3": {
+          "type": "colour",
+          "settings": {
+            "name": "Gold",
+            "hex": "#AC8E33"
+          }
+        },
+        "colour_wXMWBA": {
+          "type": "colour",
+          "settings": {
+            "name": "Purple",
+            "hex": "#765B97"
+          }
+        }
+      },
+      "block_order": [
+        "colour_YgEeBX",
+        "colour_XVTCWT",
+        "colour_nmV9LN",
+        "colour_erzQ4Y",
+        "colour_krhyaL",
+        "colour_EJQTMH",
+        "colour_TTPfYi",
+        "colour_DVxf6x",
+        "colour_3GygAa",
+        "colour_RUCFBX",
+        "colour_CzNLjA",
+        "colour_4qWyge",
+        "colour_9Xmfj3",
+        "colour_wXMWBA"
+      ],
+      "name": "Print Colours",
+      "settings": {
+        "eyebrow": "Risograph · Inks",
+        "title": "Our <em>Colours<\/em>",
+        "description": "All inks are translucent — overlapping layers create secondary tones. Hex codes are approximate; screen rendering varies from print output.",
+        "footer_note": "",
+        "cta_label": "Get in touch",
+        "cta_url": "",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "section_print_methods_bGXm9w": {
+      "type": "section-print-methods",
+      "blocks": {
+        "riso_guide_PxApVj": {
+          "type": "riso_guide",
+          "settings": {
+            "title": "Format & Margins",
+            "body": "<p>Max sheet size is <strong>297 × 420 mm (A3)<\/strong> with a max image area of 287 × 410 mm. Keep at least 5 mm safe margins all around — 10 mm for dense ink areas. Avoid full-bleed right to the edge.<\/p>",
+            "spec_1_label": "Max sheet",
+            "spec_1_value": "A3 · 297 × 420mm",
+            "spec_2_label": "Image area",
+            "spec_2_value": "287 × 410mm",
+            "spec_3_label": "Safe margin",
+            "spec_3_value": "5mm min",
+            "spec_4_label": "",
+            "spec_4_value": "",
+            "spec_5_label": "",
+            "spec_5_value": ""
+          }
+        },
+        "riso_guide_bhiRdF": {
+          "type": "riso_guide",
+          "settings": {
+            "title": "Colour & Coverage",
+            "body": "<p>Each pass is <strong>transparent<\/strong> — overlapping inks create new tones. Avoid dense fills at 100%; use 80–90% opacity for large colour areas. Flat colours may print unevenly — typical with big ink blocks.<\/p>",
+            "spec_1_label": "Max coverage",
+            "spec_1_value": "80–90%",
+            "spec_2_label": "Overprints",
+            "spec_2_value": "Avoid fine lines",
+            "spec_3_label": "Layers",
+            "spec_3_value": "Transparent \/ additive",
+            "spec_4_label": "",
+            "spec_4_value": "",
+            "spec_5_label": "",
+            "spec_5_value": ""
+          }
+        },
+        "riso_guide_YDEfKD": {
+          "type": "riso_guide",
+          "settings": {
+            "title": "Text & Lines",
+            "body": "<p>Minimum font size is <strong>6 pt<\/strong>. Avoid very thin fonts or line weights under 0.25 pt. For small type, use solid black only — no layered inks.<\/p>",
+            "spec_1_label": "Min font size",
+            "spec_1_value": "6pt",
+            "spec_2_label": "Min line weight",
+            "spec_2_value": "0.25pt",
+            "spec_3_label": "Small type",
+            "spec_3_value": "Black only",
+            "spec_4_label": "",
+            "spec_4_value": "",
+            "spec_5_label": "",
+            "spec_5_value": ""
+          }
+        },
+        "riso_guide_Q4KpaD": {
+          "type": "riso_guide",
+          "settings": {
+            "title": "Paper",
+            "body": "<p>We print exclusively on <strong>uncoated paper<\/strong>, FSC-certified stock. Weight range 80g to 300g. We frequently work with Fedrigoni papers from Italy and locally sourced papers from Barcelona.<\/p>",
+            "spec_1_label": "Weight range",
+            "spec_1_value": "80g – 300g",
+            "spec_2_label": "Finish",
+            "spec_2_value": "Uncoated only",
+            "spec_3_label": "Certification",
+            "spec_3_value": "FSC-certified",
+            "spec_4_label": "",
+            "spec_4_value": "",
+            "spec_5_label": "",
+            "spec_5_value": ""
+          }
+        },
+        "riso_guide_976BDi": {
+          "type": "riso_guide",
+          "settings": {
+            "title": "File Setup",
+            "body": "<p>Submit one <strong>flattened, greyscale PDF<\/strong> per colour layer. PSDs with colour layers accepted for A3. 300 dpi minimum. Include a colour reference preview (RGB or CMYK OK).<\/p>",
+            "spec_1_label": "Format",
+            "spec_1_value": "PDF per layer \/ PSD",
+            "spec_2_label": "Resolution",
+            "spec_2_value": "300 dpi",
+            "spec_3_label": "Colour mode",
+            "spec_3_value": "Greyscale per layer",
+            "spec_4_label": "",
+            "spec_4_value": "",
+            "spec_5_label": "",
+            "spec_5_value": ""
+          }
+        },
+        "riso_guide_LqbVTP": {
+          "type": "riso_guide",
+          "settings": {
+            "title": "Production Notes",
+            "body": "<p>Minimum run is <strong>30 copies<\/strong>. Riso is a duplicator — each layer prints via stencil and drum. Expect slight shifts, texture, and roller marks. Oil-based inks are slow-drying, especially in multi-layer prints.<\/p>",
+            "spec_1_label": "Min run",
+            "spec_1_value": "30 copies",
+            "spec_2_label": "Registration",
+            "spec_2_value": "Slight shifts expected",
+            "spec_3_label": "Ink type",
+            "spec_3_value": "Oil-based",
+            "spec_4_label": "",
+            "spec_4_value": "",
+            "spec_5_label": "",
+            "spec_5_value": ""
+          }
+        },
+        "giclee_guide_bLgYrm": {
+          "type": "giclee_guide",
+          "settings": {
+            "title": "About Giclée",
+            "body": "<p>Giclée is a professional fine art process using <strong>archival pigment inks<\/strong> and museum-grade paper. Produces vibrant, long-lasting prints that faithfully reproduce your artwork. We print on <strong>Hahnemühle Photo Matt Fibre 200 gsm<\/strong>.<\/p>",
+            "spec_1_label": "Ink type",
+            "spec_1_value": "Archival pigment",
+            "spec_2_label": "Paper",
+            "spec_2_value": "Hahnemühle 200gsm",
+            "spec_3_label": "Max size",
+            "spec_3_value": "A1 · 59.4 × 84.1cm",
+            "spec_4_label": "",
+            "spec_4_value": "",
+            "spec_5_label": "",
+            "spec_5_value": ""
+          }
+        },
+        "giclee_guide_JVfWTK": {
+          "type": "giclee_guide",
+          "settings": {
+            "title": "File Requirements",
+            "body": "<p>Provide files at <strong>300 dpi at final print size<\/strong>. Colour profiles: Adobe RGB (1998) or ProPhoto RGB. TIFF or high-quality uncompressed JPEG. Include exact dimensions wanted and leave 5–10 mm around edges for trimming.<\/p>",
+            "spec_1_label": "Resolution",
+            "spec_1_value": "300 dpi",
+            "spec_2_label": "Colour profile",
+            "spec_2_value": "Adobe RGB \/ ProPhoto",
+            "spec_3_label": "Format",
+            "spec_3_value": "TIFF or JPEG",
+            "spec_4_label": "",
+            "spec_4_value": "",
+            "spec_5_label": "",
+            "spec_5_value": ""
+          }
+        },
+        "giclee_guide_FMbYwT": {
+          "type": "giclee_guide",
+          "settings": {
+            "title": "Print Sizes",
+            "body": "<p>We print standard and custom sizes from <strong>A4 up to A1<\/strong>. Custom sizes available — contact us for guidance. Label files clearly with your name and size.<\/p>",
+            "spec_1_label": "A4",
+            "spec_1_value": "21 × 29.7cm",
+            "spec_2_label": "A3",
+            "spec_2_value": "29.7 × 42cm",
+            "spec_3_label": "A2",
+            "spec_3_value": "42 × 59.4cm",
+            "spec_4_label": "A1",
+            "spec_4_value": "59.4 × 84.1cm",
+            "spec_5_label": "",
+            "spec_5_value": ""
+          }
+        }
+      },
+      "block_order": [
+        "riso_guide_PxApVj",
+        "riso_guide_bhiRdF",
+        "riso_guide_YDEfKD",
+        "riso_guide_Q4KpaD",
+        "riso_guide_976BDi",
+        "riso_guide_LqbVTP",
+        "giclee_guide_bLgYrm",
+        "giclee_guide_JVfWTK",
+        "giclee_guide_FMbYwT"
+      ],
+      "name": "Print Methods",
+      "settings": {
+        "eyebrow": "Printing Methods",
+        "heading": "How we <em>print<\/em>",
+        "intro_text": "",
+        "cta_text": "Got a project in mind?",
+        "cta_label": "Get in touch",
+        "cta_url": "",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
     "main": {
       "type": "main-page",
       "blocks": {
@@ -17,7 +320,7 @@
           "name": "Title",
           "disabled": true,
           "settings": {
-            "text": "<h1>{{ closest.page.title }}</h1>",
+            "text": "<h1>{{ closest.page.title }}<\/h1>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "left",
@@ -60,68 +363,6 @@
         "padding-block-end": 0
       }
     },
-    "section_he6Xir": {
-      "type": "section",
-      "blocks": {
-        "text_ggxBy6": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We've got two risographs, a giclée printer, and a real soft spot for anyone trying to make something worth printing. We're based in Barcelona and we take on runs of all sizes. Drop us a line and we'll figure out the rest.</p>",
-            "width": "100%",
-            "max_width": "narrow",
-            "alignment": "left",
-            "type_preset": "custom",
-            "font": "var(--font-body--family)",
-            "font_size": "1.125rem",
-            "line_height": "tight",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "text_color": "#000000",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "text_ggxBy6"
-      ],
-      "name": "t:names.pull_quote",
-      "settings": {
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "flex-start",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 16,
-        "section_width": "page-width",
-        "section_height": "",
-        "section_height_custom": 50,
-        "color_scheme": "",
-        "background_media": "none",
-        "video_position": "cover",
-        "background_image_position": "cover",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "padding-block-start": 24,
-        "padding-block-end": 24
-      }
-    },
     "section_kEcUwz": {
       "type": "section",
       "blocks": {
@@ -129,7 +370,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>We offer <strong>Risograph printing</strong> up to A3 and <strong>Giclée printing</strong> up to A1 </p><p><em>Please contact hey@jumbo-press.com for more info.</em></p>",
+            "text": "<p>We offer <strong>Risograph printing<\/strong> up to A3 and <strong>Giclée printing<\/strong> up to A1 <\/p><p><em>Please contact hey@jumbo-press.com for more info.<\/em><\/p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -156,7 +397,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p><strong>Colours</strong></p><p>Below is a list of the colours we currently stock at Jumbo, including their Hex codes for your specific project needs. If you're looking for a colour that's not listed, please feel free to get in touch—we may have recently added it to our collection.</p><p>All our colours are translucent, allowing you to mix them to create secondary shades. For assistance with setup or usage, please refer to the guide below.</p>",
+            "text": "<p><strong>Colours<\/strong><\/p><p>Below is a list of the colours we currently stock at Jumbo, including their Hex codes for your specific project needs. If you're looking for a colour that's not listed, please feel free to get in touch—we may have recently added it to our collection.<\/p><p>All our colours are translucent, allowing you to mix them to create secondary shades. For assistance with setup or usage, please refer to the guide below.<\/p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -183,7 +424,7 @@
           "type": "image",
           "name": "t:names.image",
           "settings": {
-            "image": "shopify://shop_images/Capture_d_ecran_2025-07-22_a_12.30.14.png",
+            "image": "shopify:\/\/shop_images\/Capture_d_ecran_2025-07-22_a_12.30.14.png",
             "link": "",
             "image_ratio": "adapt",
             "width": "fill",
@@ -206,7 +447,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<h3>Risograph Print guide</h3>",
+            "text": "<h3>Risograph Print guide<\/h3>",
             "width": "fit-content",
             "max_width": "narrow",
             "alignment": "left",
@@ -300,7 +541,7 @@
                       "type": "text",
                       "name": "t:names.text",
                       "settings": {
-                        "text": "<ul><li>Max sheet size: 297 × 420 mm (A3)</li><li>Max image area: 287 × 410 mm</li><li>Safe margins: At least 5 mm all around (10 mm for dense ink areas)</li></ul><p>Avoid full-bleed elements right to the edge — ink can easily smudge during handling or printing.</p>",
+                        "text": "<ul><li>Max sheet size: 297 × 420 mm (A3)<\/li><li>Max image area: 287 × 410 mm<\/li><li>Safe margins: At least 5 mm all around (10 mm for dense ink areas)<\/li><\/ul><p>Avoid full-bleed elements right to the edge — ink can easily smudge during handling or printing.<\/p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -327,7 +568,7 @@
                       "type": "image",
                       "name": "t:names.image",
                       "settings": {
-                        "image": "shopify://shop_images/A3.jpg",
+                        "image": "shopify:\/\/shop_images\/A3.jpg",
                         "link": "",
                         "image_ratio": "adapt",
                         "width": "fit-content",
@@ -409,7 +650,7 @@
                       "type": "text",
                       "name": "t:names.text",
                       "settings": {
-                        "text": "<ul><li>Colours blend — each pass is transparent; overlapping inks create new tones</li><li>Avoid dense fills at 100% — try to use 80–90% opacity for large colour areas</li><li>Flat colours may print unevenly — this is typical with big blocks of ink</li><li>Avoid fine lines in overprints — don’t stack text or lines across layers</li></ul>",
+                        "text": "<ul><li>Colours blend — each pass is transparent; overlapping inks create new tones<\/li><li>Avoid dense fills at 100% — try to use 80–90% opacity for large colour areas<\/li><li>Flat colours may print unevenly — this is typical with big blocks of ink<\/li><li>Avoid fine lines in overprints — don’t stack text or lines across layers<\/li><\/ul>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -436,7 +677,7 @@
                       "type": "image",
                       "name": "t:names.image",
                       "settings": {
-                        "image": "shopify://shop_images/COLORS_3_aafd4810-e61a-4990-8729-8024699fd39c.jpg",
+                        "image": "shopify:\/\/shop_images\/COLORS_3_aafd4810-e61a-4990-8729-8024699fd39c.jpg",
                         "link": "",
                         "image_ratio": "adapt",
                         "width": "fit-content",
@@ -519,7 +760,7 @@
                       "type": "text",
                       "name": "t:names.text",
                       "settings": {
-                        "text": "<ul><li>Minimum font size: 6 pt</li><li>Avoid very thin fonts or line weights under 0.25 pt</li><li>For small type: use solid black only, not layered inks</li></ul>",
+                        "text": "<ul><li>Minimum font size: 6 pt<\/li><li>Avoid very thin fonts or line weights under 0.25 pt<\/li><li>For small type: use solid black only, not layered inks<\/li><\/ul>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -546,7 +787,7 @@
                       "type": "image",
                       "name": "t:names.image",
                       "settings": {
-                        "image": "shopify://shop_images/TYPE.jpg",
+                        "image": "shopify:\/\/shop_images\/TYPE.jpg",
                         "link": "",
                         "image_ratio": "adapt",
                         "width": "fit-content",
@@ -629,7 +870,7 @@
                       "type": "text",
                       "name": "t:names.text",
                       "settings": {
-                        "text": "<p>We print exclusively on uncoated paper, suitable for Risograph printing.</p><ul><li>Weight range: 80g to 300g</li><li>FSC-certified stock – sustainably sourced</li><li>We frequently work withFedrigoni papers from Italy, as well as a selection oflocally sourced papers from Barcelona. </li><li>You’re welcome to provide your own paper (please bring extra for setup)</li></ul>",
+                        "text": "<p>We print exclusively on uncoated paper, suitable for Risograph printing.<\/p><ul><li>Weight range: 80g to 300g<\/li><li>FSC-certified stock – sustainably sourced<\/li><li>We frequently work withFedrigoni papers from Italy, as well as a selection oflocally sourced papers from Barcelona. <\/li><li>You’re welcome to provide your own paper (please bring extra for setup)<\/li><\/ul>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -656,7 +897,7 @@
                       "type": "image",
                       "name": "t:names.image",
                       "settings": {
-                        "image": "shopify://shop_images/paper_102fd27c-5374-4115-a0d5-2dde2e25ed7f.jpg",
+                        "image": "shopify:\/\/shop_images\/paper_102fd27c-5374-4115-a0d5-2dde2e25ed7f.jpg",
                         "link": "",
                         "image_ratio": "adapt",
                         "width": "fit-content",
@@ -739,7 +980,7 @@
                       "type": "text",
                       "name": "t:names.text",
                       "settings": {
-                        "text": "<ul><li>Submit one flattened, grayscale or black & white PDF per colour layer</li><li>For prints, a psd with colours layers is accepted for A3 prints</li><li>300 dpi resolution required</li><li>Include a colour reference preview (RGB or CMYK OK)</li></ul>",
+                        "text": "<ul><li>Submit one flattened, grayscale or black & white PDF per colour layer<\/li><li>For prints, a psd with colours layers is accepted for A3 prints<\/li><li>300 dpi resolution required<\/li><li>Include a colour reference preview (RGB or CMYK OK)<\/li><\/ul>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -766,7 +1007,7 @@
                       "type": "image",
                       "name": "t:names.image",
                       "settings": {
-                        "image": "shopify://shop_images/V3-1.jpg",
+                        "image": "shopify:\/\/shop_images\/V3-1.jpg",
                         "link": "",
                         "image_ratio": "adapt",
                         "width": "fit-content",
@@ -849,7 +1090,7 @@
                       "type": "text",
                       "name": "t:names.text",
                       "settings": {
-                        "text": "<ul><li>Minimum run: 30 copies</li><li>Riso is a duplicator, not a printer — each layer is printed via a stencil and drum</li><li>Expect imperfections — slight shifts, texture, and roller marks are part of the medium</li><li>Inks are oil-based and slow-drying (especially in multi-layer prints)</li><li>Printing with more than two colours requires multiple passes, which may result in slight misalignments or marks.<br/>At Jumbo, we apply our experience and care to ensure the cleanest and most precise result possible.</li></ul>",
+                        "text": "<ul><li>Minimum run: 30 copies<\/li><li>Riso is a duplicator, not a printer — each layer is printed via a stencil and drum<\/li><li>Expect imperfections — slight shifts, texture, and roller marks are part of the medium<\/li><li>Inks are oil-based and slow-drying (especially in multi-layer prints)<\/li><li>Printing with more than two colours requires multiple passes, which may result in slight misalignments or marks.<br\/>At Jumbo, we apply our experience and care to ensure the cleanest and most precise result possible.<\/li><\/ul>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -876,7 +1117,7 @@
                       "type": "image",
                       "name": "t:names.image",
                       "settings": {
-                        "image": "shopify://shop_images/DRUMS.jpg",
+                        "image": "shopify:\/\/shop_images\/DRUMS.jpg",
                         "link": "",
                         "image_ratio": "adapt",
                         "width": "fit-content",
@@ -924,6 +1165,7 @@
         "text_j6Yg8V",
         "accordion_f74aip"
       ],
+      "disabled": true,
       "name": "t:names.faq_section",
       "settings": {
         "content_direction": "column",
@@ -960,7 +1202,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<h3>Giclée print guide</h3>",
+            "text": "<h3>Giclée print guide<\/h3>",
             "width": "fit-content",
             "max_width": "narrow",
             "alignment": "left",
@@ -1014,7 +1256,7 @@
                 "text_DwFGjw": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Giclée is a professional fine art printing process using <strong>archival pigment inks</strong> and <strong>museum-grade paper</strong>. It produces vibrant, long-lasting prints that faithfully reproduce your artwork’s colors and details.</p><p>At Jumbo Press, we print on <strong>Hahnemühle Photo Matt Fibre 200 gsm</strong>, ensuring your prints are museum-quality and durable.</p>",
+                    "text": "<p>Giclée is a professional fine art printing process using <strong>archival pigment inks<\/strong> and <strong>museum-grade paper<\/strong>. It produces vibrant, long-lasting prints that faithfully reproduce your artwork’s colors and details.<\/p><p>At Jumbo Press, we print on <strong>Hahnemühle Photo Matt Fibre 200 gsm<\/strong>, ensuring your prints are museum-quality and durable.<\/p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1054,7 +1296,7 @@
                 "text_BW8bNC": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>To get the best results, please provide:</p><ul><li>300 dpi at final print size<br/></li><li>Adobe RGB (1998) or ProPhoto RGB<br/></li><li>TIFF or high-quality JPEG (uncompressed or minimal compression)<br/></li><li>Exact dimensions you want printed (A4, A3, A2, A1, or custom)<br/></li><li>Leave 5–10 mm around the edges for trimming</li></ul>",
+                    "text": "<p>To get the best results, please provide:<\/p><ul><li>300 dpi at final print size<br\/><\/li><li>Adobe RGB (1998) or ProPhoto RGB<br\/><\/li><li>TIFF or high-quality JPEG (uncompressed or minimal compression)<br\/><\/li><li>Exact dimensions you want printed (A4, A3, A2, A1, or custom)<br\/><\/li><li>Leave 5–10 mm around the edges for trimming<\/li><\/ul>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1096,7 +1338,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>We can print standard and custom sizes:</p><p>Size Dimensions </p><ul><li>A4 (21 × 29.7 cm)</li><li>A3 (29.7 × 42 cm)</li><li>A2 (42 × 59.4 cm)</li><li>A1 (59.4 × 84.1 cm)<br/></li></ul><p>Custom sizes are available — contact us for guidance.</p>",
+                    "text": "<p>We can print standard and custom sizes:<\/p><p>Size Dimensions <\/p><ul><li>A4 (21 × 29.7 cm)<\/li><li>A3 (29.7 × 42 cm)<\/li><li>A2 (42 × 59.4 cm)<\/li><li>A1 (59.4 × 84.1 cm)<br\/><\/li><\/ul><p>Custom sizes are available — contact us for guidance.<\/p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1138,7 +1380,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<ul><li>Label your files clearly with your <strong>name and size</strong> to avoid mix-ups.</li><li>For mixed media or unusual colors, consider <strong>a test print first</strong>.</li><li>Ensure files are <strong>high-resolution</strong> and color-corrected.</li></ul>",
+                    "text": "<ul><li>Label your files clearly with your <strong>name and size<\/strong> to avoid mix-ups.<\/li><li>For mixed media or unusual colors, consider <strong>a test print first<\/strong>.<\/li><li>Ensure files are <strong>high-resolution<\/strong> and color-corrected.<\/li><\/ul>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1179,6 +1421,7 @@
         "text_XckDGC",
         "accordion_xkEdzq"
       ],
+      "disabled": true,
       "name": "t:names.faq_section",
       "settings": {
         "content_direction": "column",
@@ -1210,8 +1453,9 @@
     }
   },
   "order": [
+    "section_print_colours_rUDLxb",
+    "section_print_methods_bGXm9w",
     "main",
-    "section_he6Xir",
     "section_kEcUwz",
     "section_qERiCr"
   ]

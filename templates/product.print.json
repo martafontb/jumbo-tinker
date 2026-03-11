@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "main": {
@@ -70,7 +61,7 @@
             "heading_m7KmQQ": {
               "type": "text",
               "settings": {
-                "text": "<h1>{{ closest.product.title }}</h1>",
+                "text": "<h1>{{ closest.product.title }}<\/h1>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
@@ -182,7 +173,7 @@
               "type": "product-description",
               "name": "t:names.product_description",
               "settings": {
-                "text": "{{ closest.product.description }}<p>A note on riso: each print is run through our MH9350 one colour at a time, which means no two come out exactly the same. You might get a slight shift in registration, a ghost roller mark, or a colour that sits a little differently than the photo suggests. That's not a flaw, it's the whole point. These are handmade things.</p>",
+                "text": "{{ closest.product.description }}<p>A note on riso: each print is run through our MH9350 one colour at a time, which means no two come out exactly the same. You might get a slight shift in registration, a ghost roller mark, or a colour that sits a little differently than the photo suggests. That's not a flaw, it's the whole point. These are handmade things.<\/p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -337,7 +328,7 @@
                           "type": "text",
                           "name": "Heading",
                           "settings": {
-                            "text": "<p>Made with care</p>",
+                            "text": "<p>Made with care<\/p>",
                             "width": "100%",
                             "max_width": "normal",
                             "alignment": "center",
@@ -420,7 +411,7 @@
                           "type": "text",
                           "name": "Heading",
                           "settings": {
-                            "text": "<p>Great value</p>",
+                            "text": "<p>Great value<\/p>",
                             "width": "100%",
                             "max_width": "normal",
                             "alignment": "center",
@@ -548,7 +539,7 @@
                           "type": "text",
                           "name": "Heading",
                           "settings": {
-                            "text": "<p>Elegant design</p>",
+                            "text": "<p>Elegant design<\/p>",
                             "width": "100%",
                             "max_width": "normal",
                             "alignment": "center",
@@ -631,7 +622,7 @@
                           "type": "text",
                           "name": "Heading",
                           "settings": {
-                            "text": "<p>Quality materials</p>",
+                            "text": "<p>Quality materials<\/p>",
                             "width": "100%",
                             "max_width": "normal",
                             "alignment": "center",
@@ -703,7 +694,7 @@
                     "text_McjMWz": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>This product is crafted with quality materials to ensure durability and performance. Designed with your convenience in mind, it seamlessly fits into your everyday life.</p>",
+                        "text": "<p>This product is crafted with quality materials to ensure durability and performance. Designed with your convenience in mind, it seamlessly fits into your everyday life.<\/p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -743,7 +734,7 @@
                     "text_DNPAct": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>We strive to process and ship all orders in a timely manner, working diligently to ensure that your items are on their way to you as soon as possible. </p><p>We are committed to ensuring a positive shopping experience for all our customers. If for any reason you wish to return an item, we invite you to reach out to our team for assistance, and we will evaluate every return request with care and consideration.</p>",
+                        "text": "<p>We strive to process and ship all orders in a timely manner, working diligently to ensure that your items are on their way to you as soon as possible. <\/p><p>We are committed to ensuring a positive shopping experience for all our customers. If for any reason you wish to return an item, we invite you to reach out to our team for assistance, and we will evaluate every return request with care and consideration.<\/p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -809,7 +800,7 @@
           "type": "text",
           "name": "t:names.header",
           "settings": {
-            "text": "<h3>Related products</h3>",
+            "text": "<h3>Related products<\/h3>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
