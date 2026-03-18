@@ -33,6 +33,60 @@
     {% endif %}
 
     {{ content_for_header }}
+
+    <script>
+      (function () {
+        const colors = [
+          '#FF48B0', // Fl. Pink
+          '#FF7477', // Fl. Orange
+          '#FFE900', // Yellow
+          '#44D62C', // Flo Green
+          '#01A458', // Green
+          '#5EC8E5', // Aqua
+          '#0078BF', // Blue
+          '#00838A', // Teal
+          '#765B97', // Purple
+          '#AC8E33', // Gold
+          '#FF665E', // Red
+        ];
+
+        const canvas = document.createElement('canvas');
+        canvas.width = 32;
+        canvas.height = 32;
+        const ctx = canvas.getContext('2d');
+
+        let link = document.querySelector("link[rel~='icon']");
+        if (!link) {
+          link = document.createElement('link');
+          link.rel = 'icon';
+          document.head.appendChild(link);
+        }
+
+        let frame = 0;
+        let last = 0;
+        const interval = 1000 / 2;
+
+        function draw(timestamp) {
+          if (timestamp - last < interval) {
+            requestAnimationFrame(draw);
+            return;
+          }
+          last = timestamp;
+
+          ctx.clearRect(0, 0, 32, 32);
+          ctx.beginPath();
+          ctx.arc(16, 16, 16, 0, Math.PI * 2);
+          ctx.fillStyle = colors[frame % colors.length];
+          ctx.fill();
+
+          link.href = canvas.toDataURL();
+          frame++;
+          requestAnimationFrame(draw);
+        }
+
+        if (ctx) requestAnimationFrame(draw);
+      })();
+    </script>
   </head>
 
   <body class="page-width-{{ settings.page_width }} card-hover-effect-{{ settings.card_hover_effect }}">
