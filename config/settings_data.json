@@ -1,7 +1,16 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/IMG_3260.jpg",
-    "logo_inverse": "shopify:\/\/shop_images\/jumbo_footer.png",
+    "logo": "shopify://shop_images/IMG_3260.jpg",
+    "logo_inverse": "shopify://shop_images/jumbo_footer.png",
     "type_body_font": "geist_n4",
     "type_subheading_font": "geist_n5",
     "type_heading_font": "geist_n4",
@@ -47,12 +56,12 @@
     "content_for_index": [],
     "blocks": {
       "2567389343055140935": {
-        "type": "shopify:\/\/apps\/microsoft-clarity\/blocks\/clarity_js\/31c3d126-8116-4b4a-8ba1-baeda7c4aeea",
+        "type": "shopify://apps/microsoft-clarity/blocks/clarity_js/31c3d126-8116-4b4a-8ba1-baeda7c4aeea",
         "disabled": false,
         "settings": {}
       },
       "15683396631634586217": {
-        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
         "settings": {
           "button_color": "#000000",
@@ -63,6 +72,13 @@
           "button_horizontal_position": "bottom_right",
           "button_vertical_position": "lowest",
           "greeting_message": ""
+        }
+      },
+      "16017602894386113438": {
+        "type": "shopify://apps/junip/blocks/junip-store-key/dc14f5a8-ed15-41b1-ad08-cfba23f9789b",
+        "disabled": false,
+        "settings": {
+          "enablePreviewMode": true
         }
       }
     },
