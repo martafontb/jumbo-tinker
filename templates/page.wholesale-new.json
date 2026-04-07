@@ -542,7 +542,7 @@
       "name": "t:names.editorial",
       "settings": {
         "media_position": "left",
-        "media_width": "narrow",
+        "media_width": "medium",
         "media_height": "60svh",
         "section_width": "full-width",
         "extend_media": true,
