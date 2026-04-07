@@ -116,39 +116,11 @@
             "padding-inline-end": 0
           },
           "blocks": {}
-        },
-        "text_ytKny9": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Everything we publish is printed in-house on our MH9350 two-drum risograph printer, plus a HP DesignJet Z9+ Dr for giclée work. Soy-based inks, recycled and sustainably sourced paper, small runs on purpose. Fewer copies means more care, and more care means better work.</p>",
-            "width": "100%",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "custom",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "balance",
-            "color": "var(--color-foreground)",
-            "text_color": "#000000",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
         }
       },
       "block_order": [
         "text_DHjtqW",
-        "text_tp8HA9",
-        "text_ytKny9"
+        "text_tp8HA9"
       ],
       "name": "t:names.pull_quote",
       "settings": {
@@ -337,7 +309,7 @@
                 "label": "Print With Us!",
                 "link": "shopify://pages/print-with-us",
                 "open_in_new_tab": false,
-                "style_class": "link",
+                "style_class": "button",
                 "width": "fit-content",
                 "custom_width": 100,
                 "width_mobile": "fit-content",
@@ -428,37 +400,10 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "text_k4GJDm": {
-                  "type": "text",
-                  "name": "t:names.heading",
-                  "settings": {
-                    "text": "<h2>The Press</h2>",
-                    "width": "fit-content",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "h3",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "text_color": "#000000",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
                 "text_feYdCn": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Alongside our publishing work, Jumbo Studio is a creative communications studio offering design and illustration solutions for brands, including websites, digital campaigns and short-form content. We bring our network of artists and our own expertise together for the right projects.</p>",
+                    "text": "<p>We offer a bespoke risograph print service covering zines, posters, artist books and printed ephemera. Small runs, no minimum order, and we'll talk you through the whole thing.</p>",
                     "width": "fit-content",
                     "max_width": "narrow",
                     "alignment": "left",
@@ -483,17 +428,16 @@
                 }
               },
               "block_order": [
-                "text_k4GJDm",
                 "text_feYdCn"
               ]
             },
             "button_qmndGT": {
               "type": "button",
               "settings": {
-                "label": "Print With Us!",
+                "label": "See the print guide",
                 "link": "shopify://pages/print-with-us",
                 "open_in_new_tab": false,
-                "style_class": "link",
+                "style_class": "button",
                 "width": "fit-content",
                 "custom_width": 100,
                 "width_mobile": "fit-content",
