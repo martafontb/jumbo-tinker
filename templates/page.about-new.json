@@ -275,7 +275,34 @@
                   "settings": {
                     "text": "<p>Risograph printing is tactile and slightly unpredictable. The colours bleed into each other a little. The registration is almost right. That's not a flaw. That's the whole point.</p>",
                     "width": "fit-content",
-                    "max_width": "narrow",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "text_color": "#000000",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "text_tGLGNt": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p>We offer a bespoke risograph print service covering zines, posters, artist books and printed ephemera. </p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
                     "alignment": "left",
                     "type_preset": "rte",
                     "font": "var(--font-body--family)",
@@ -300,7 +327,8 @@
               "block_order": [
                 "text_MiGfk8",
                 "text_FxPncz",
-                "text_DXRrPT"
+                "text_DXRrPT",
+                "text_tGLGNt"
               ]
             },
             "button_W74Y7E": {
@@ -403,7 +431,7 @@
                 "text_feYdCn": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>We offer a bespoke risograph print service covering zines, posters, artist books and printed ephemera. </p>",
+                    "text": "",
                     "width": "fit-content",
                     "max_width": "narrow",
                     "alignment": "left",
