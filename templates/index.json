@@ -298,8 +298,9 @@
       "settings": {
         "media_type_1": "video",
         "image_1": "shopify://shop_images/print04_2.png",
-        "video_1": "shopify://files/videos/new video try.mov",
+        "video_1": "shopify://files/videos/different video try.mov",
         "media_type_2": "image",
+        "image_2": "shopify://shop_images/Firefly_Gemini_Flash_can_you_arrange_this_artwork_into_a_square_so_it_s_just_white_background_and_the_artw_199563.png",
         "link": "",
         "open_in_new_tab": false,
         "content_direction": "column",
