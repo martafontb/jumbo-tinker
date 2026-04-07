@@ -331,7 +331,7 @@
         "media_height": "60svh",
         "section_width": "full-width",
         "extend_media": true,
-        "color_scheme": "scheme-4",
+        "color_scheme": "scheme-1",
         "padding-block-start": 0,
         "padding-block-end": 0
       }
@@ -403,7 +403,7 @@
                 "text_feYdCn": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>We offer a bespoke risograph print service covering zines, posters, artist books and printed ephemera. Small runs, no minimum order, and we'll talk you through the whole thing.</p>",
+                    "text": "<p>We offer a bespoke risograph print service covering zines, posters, artist books and printed ephemera. </p>",
                     "width": "fit-content",
                     "max_width": "narrow",
                     "alignment": "left",
@@ -459,7 +459,7 @@
         "media_height": "60svh",
         "section_width": "full-width",
         "extend_media": true,
-        "color_scheme": "scheme-5",
+        "color_scheme": "scheme-1",
         "padding-block-start": 0,
         "padding-block-end": 0
       }
