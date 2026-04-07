@@ -135,7 +135,7 @@
                   "name": "t:names.menu",
                   "settings": {
                     "menu": "aboout",
-                    "heading": "About",
+                    "heading": "Socials",
                     "menu_spacing": 6,
                     "show_as_accordion": true,
                     "accordion_icon": "caret",
