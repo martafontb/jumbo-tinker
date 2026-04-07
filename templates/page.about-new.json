@@ -431,9 +431,9 @@
                 "text_feYdCn": {
                   "type": "text",
                   "settings": {
-                    "text": "",
+                    "text": "<p>Alongside our publishing work, Jumbo Studio is a creative communications studio offering design and illustration solutions for brands, including websites, digital campaigns and short-form content. We bring our network of artists and our own expertise together for the right projects.</p><p>If you've got something worth making, write to us at <a href=\"mailto:hey@jumbo-press.com\"><span style=\"text-decoration:underline\">hey@jumbo-press.com</span></a></p>",
                     "width": "fit-content",
-                    "max_width": "narrow",
+                    "max_width": "normal",
                     "alignment": "left",
                     "type_preset": "rte",
                     "font": "var(--font-body--family)",
@@ -461,6 +461,7 @@
             },
             "button_qmndGT": {
               "type": "button",
+              "disabled": true,
               "settings": {
                 "label": "See the print guide",
                 "link": "shopify://pages/print-with-us",
