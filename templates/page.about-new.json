@@ -9,26 +9,6 @@
  */
 {
   "sections": {
-    "price_guide": {
-      "type": "price-guide",
-      "disabled": true,
-      "settings": {
-        "eyebrow": "Our pricing",
-        "heading": "Print <em>pricing</em>",
-        "intro_text": "Risograph up to A3, Giclée up to A1. Get in touch for custom sizes or quantities.",
-        "show_image": true,
-        "image": "shopify://shop_images/jumbo_poster.jpg",
-        "riso_title": "Risograph price guide",
-        "riso_subtitle": "A3 prints · 200g Fedrigoni natural paper",
-        "riso_note": "All prices per edition. Setup fee may apply for new files.",
-        "giclee_title": "Giclée price guide",
-        "giclee_subtitle": "Hahnemühle 200gsm · museum grade pigment inks",
-        "giclee_note": "Museum grade printing using archival pigment-based inks.",
-        "color_scheme": "scheme-1",
-        "padding-block-start": 40,
-        "padding-block-end": 80
-      }
-    },
     "hero_7nTmQN": {
       "type": "hero",
       "name": "t:names.hero",
@@ -1047,7 +1027,6 @@
     }
   },
   "order": [
-    "price_guide",
     "hero_7nTmQN",
     "section_4dN88c",
     "media_with_content_dUFPEw",
