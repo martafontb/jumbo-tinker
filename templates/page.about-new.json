@@ -766,7 +766,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>Eye on Design</p>",
+            "text": "<p><a href=\"https://eyeondesign.aiga.org/ugly-design-imposter-syndrome-as-an-illustrated-coping-strategy/sander-ettema-friends-in-many-places-064/\" target=\"_blank\" title=\"https://eyeondesign.aiga.org/ugly-design-imposter-syndrome-as-an-illustrated-coping-strategy/sander-ettema-friends-in-many-places-064/\">Eye on Design</a></p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
