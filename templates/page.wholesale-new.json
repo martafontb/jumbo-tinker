@@ -387,7 +387,7 @@
           "static": true,
           "settings": {
             "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "flex-start",
             "gap": 24
           },
           "blocks": {
@@ -542,7 +542,7 @@
       "name": "t:names.editorial",
       "settings": {
         "media_position": "left",
-        "media_width": "wide",
+        "media_width": "narrow",
         "media_height": "60svh",
         "section_width": "full-width",
         "extend_media": true,
