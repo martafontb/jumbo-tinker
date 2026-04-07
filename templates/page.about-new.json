@@ -681,7 +681,7 @@
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
-            "type_preset": "rte",
+            "type_preset": "h3",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
             "line_height": "normal",
@@ -730,7 +730,7 @@
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "padding-block-start": 24,
-        "padding-block-end": 24
+        "padding-block-end": 0
       }
     },
     "marquee_xX8C9n": {
@@ -740,7 +740,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>Creative Boom</p>",
+            "text": "<p><a href=\"https://www.creativeboom.com/features/artists-who-design-clothing/\" target=\"_blank\" title=\"https://www.creativeboom.com/features/artists-who-design-clothing/\">Creative Boom</a></p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -766,7 +766,7 @@
         "text_bTdVMT": {
           "type": "text",
           "settings": {
-            "text": "<p>It's Nice That </p>",
+            "text": "<p><a href=\"https://www.itsnicethat.com/articles/jumbo-press-bubblegum-volume-two-publication-illustration-260121\" target=\"_blank\" title=\"https://www.itsnicethat.com/articles/jumbo-press-bubblegum-volume-two-publication-illustration-260121\">It's Nice That</a> </p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -820,7 +820,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>People of Print</p>",
+            "text": "<p><a href=\"https://www.peopleofprint.com/studio/jumbo-press/\" target=\"_blank\" title=\"https://www.peopleofprint.com/studio/jumbo-press/\">People of Print</a></p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
