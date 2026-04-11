@@ -543,6 +543,7 @@
         "video_HaHbU7",
         "group_mXBBjB"
       ],
+      "disabled": true,
       "name": "t:names.video_section",
       "settings": {
         "content_direction": "column",
