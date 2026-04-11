@@ -204,6 +204,19 @@
               },
               "blocks": {}
             },
+            "product_inventory_NTR3eG": {
+              "type": "product-inventory",
+              "name": "t:names.product_inventory",
+              "settings": {
+                "inventory_threshold": 10,
+                "show_inventory_quantity": false,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
             "group_X39hBc": {
               "type": "group",
               "name": "Values",
@@ -787,6 +800,7 @@
             "buy_buttons_eYQEYi",
             "back_in_stock_notify",
             "product_description_LfDYCg",
+            "product_inventory_NTR3eG",
             "group_X39hBc",
             "accordion_g8EVVp"
           ]
