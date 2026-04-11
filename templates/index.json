@@ -889,6 +889,7 @@
       "block_order": [
         "text_e7w7ix"
       ],
+      "disabled": true,
       "name": "t:names.pull_quote",
       "settings": {
         "content_direction": "column",
