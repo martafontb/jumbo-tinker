@@ -204,19 +204,6 @@
               },
               "blocks": {}
             },
-            "product_inventory_NTR3eG": {
-              "type": "product-inventory",
-              "name": "t:names.product_inventory",
-              "settings": {
-                "inventory_threshold": 10,
-                "show_inventory_quantity": false,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
             "group_X39hBc": {
               "type": "group",
               "name": "Values",
@@ -704,47 +691,6 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "accordion_row_jxzfV7": {
-                  "type": "_accordion-row",
-                  "name": "t:names.accordion_row",
-                  "settings": {
-                    "heading": "{{ closest.product.metafields.custom.artist_name.value }}",
-                    "open_by_default": false,
-                    "icon": "none",
-                    "width": 20
-                  },
-                  "blocks": {
-                    "text_N4RfcC": {
-                      "type": "text",
-                      "settings": {
-                        "text": "<p>{{ closest.product.metafields.my_fields.artist | metafield_tag }}</p>",
-                        "width": "100%",
-                        "max_width": "normal",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "color": "var(--color-foreground)",
-                        "text_color": "#000000",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": [
-                    "text_N4RfcC"
-                  ]
-                },
                 "accordion_row_VyFryh": {
                   "type": "_accordion-row",
                   "disabled": true,
@@ -828,10 +774,22 @@
                 }
               },
               "block_order": [
-                "accordion_row_jxzfV7",
                 "accordion_row_VyFryh",
                 "accordion_row_aaFerA"
               ]
+            },
+            "product_inventory_NTR3eG": {
+              "type": "product-inventory",
+              "name": "t:names.product_inventory",
+              "settings": {
+                "inventory_threshold": 10,
+                "show_inventory_quantity": false,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
             }
           },
           "block_order": [
@@ -842,9 +800,9 @@
             "buy_buttons_eYQEYi",
             "back_in_stock_notify",
             "product_description_LfDYCg",
-            "product_inventory_NTR3eG",
             "group_X39hBc",
-            "accordion_g8EVVp"
+            "accordion_g8EVVp",
+            "product_inventory_NTR3eG"
           ]
         }
       },
