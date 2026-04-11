@@ -467,7 +467,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h2>New arrivals</h2>",
+                    "text": "<p>fresh off the press</p>",
                     "width": "fit-content",
                     "max_width": "narrow",
                     "alignment": "left",
