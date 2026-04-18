@@ -334,7 +334,7 @@
           "static": true,
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/Some_photos_taken_at_the_jumbopress_HQ_-_it_s_a_real_family_affair_Taken_a_few_months_back_for.jpg",
+            "image": "shopify://shop_images/JUMBOBOOK3.jpg",
             "link": "",
             "video_loop": true,
             "video_autoplay": false,
@@ -1445,6 +1445,7 @@
           "settings": {
             "source": "uploaded",
             "video": "shopify://files/videos/Jumboanimatie.mp4",
+            "video_url": "",
             "video_autoplay": true,
             "video_loop": true,
             "alt": "",
