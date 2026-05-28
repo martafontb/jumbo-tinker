@@ -17,7 +17,7 @@
         "announcement_mxxhta": {
           "type": "_announcement",
           "settings": {
-            "text": "Free Shipping over 🇪🇺 Europe 50€ • 🇬🇧 UK £60 • 🇺🇸 USA $100 • 🌎 Worldwide $150",
+            "text": "10% off your first order with code 'WELCOME'",
             "link": "",
             "font": "var(--font-subheading--family)",
             "font_size": "var(--font-size--body-md)",
