@@ -1,0 +1,32 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "price_guide": {
+      "type": "price-guide",
+      "settings": {
+        "show_image": true,
+        "image": "shopify://shop_images/jumbo_poster.jpg",
+        "riso_title": "Risograph price guide",
+        "riso_subtitle": "A3 prints · 200g Fedrigoni natural paper",
+        "riso_note": "All prices per edition. Setup fee may apply for new files.",
+        "giclee_title": "Giclée price guide",
+        "giclee_subtitle": "Hahnemühle 200gsm · museum grade pigment inks",
+        "giclee_note": "Museum grade printing using archival pigment-based inks.",
+        "color_scheme": "scheme-1",
+        "padding-block-start": 40,
+        "padding-block-end": 80
+      }
+    }
+  },
+  "order": [
+    "price_guide"
+  ]
+}
