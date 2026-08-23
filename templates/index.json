@@ -335,10 +335,10 @@
           "settings": {
             "media_type": "image",
             "image": "shopify://shop_images/JumboPress_12.jpg",
-            "link": "",
+            "link": "shopify://products/pelea-con-el-diablo-yellow",
             "video_loop": true,
             "video_autoplay": false,
-            "image_position": "cover",
+            "image_position": "contain",
             "video_position": "cover"
           },
           "blocks": {}
