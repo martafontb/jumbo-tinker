@@ -163,7 +163,7 @@
                 "text_mtraLz": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Jumbo is a project by Jake Lucas and Marta Font, an independent risograph studio and publishing platform. Since 2018 we've been making small-run editions, artist books, zines and objects, all designed and printed in-house, in collaboration with some of the most exciting emerging illustrators and artists working today, from wherever in the world they happen to be making things.</p>",
+                    "text": "<p>Jumbo is an independent risograph studio and publishing platform. Since 2018 we've been making small-run editions, artist books, zines and objects, all designed and printed in-house, in collaboration with some of the most exciting emerging illustrators and artists working today, from wherever in the world they happen to be making things.</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
