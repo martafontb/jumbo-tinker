@@ -128,8 +128,9 @@
         "footer_note": "Riso inks are transparent — layering two colours creates a third. Yellow + Blue makes green, Pink + Blue makes purple, Orange + Blue makes brown. Mix intentionally.",
         "cta_label": "Start a project",
         "cta_url": "mailto:hey@jumbo-press.com",
-        "padding_top": 80,
-        "padding_bottom": 80
+        "section_width": "page-width",
+        "padding-block-start": 80,
+        "padding-block-end": 80
       }
     },
     "section_print_methods_bGXm9w": {
@@ -308,8 +309,9 @@
         "cta_text": "Got a project in mind?",
         "cta_label": "Start a project",
         "cta_url": "mailto:hey@jumbo-press.com",
-        "padding_top": 80,
-        "padding_bottom": 80
+        "section_width": "page-width",
+        "padding-block-start": 80,
+        "padding-block-end": 80
       }
     },
     "main": {

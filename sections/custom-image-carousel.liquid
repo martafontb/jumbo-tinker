@@ -15,7 +15,11 @@
 %}
 
 
-<div class="section section--{{ section.settings.section_width }} color-{{ section.settings.color_scheme }}">
+<div class="section-background color-{{ section.settings.color_scheme }}"></div>
+<div
+  class="section section--{{ section.settings.section_width }} color-{{ section.settings.color_scheme }} spacing-style"
+  style="{% render 'spacing-style', settings: section.settings %}"
+>
   <h2 class="section__title">{{ section.settings.title }}</h2>
   {% capture list_items %}
     {% for block in section.blocks %}

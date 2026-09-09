@@ -1,7 +1,7 @@
 {{ 'price-guide.css' | asset_url | stylesheet_tag }}
 
 <div class="section-background color-{{ section.settings.color_scheme }}"></div>
-<div class="section page-width-normal color-{{ section.settings.color_scheme }}">
+<div class="section section--{{ section.settings.section_width }} color-{{ section.settings.color_scheme }}">
   <div
     class="price-guide spacing-style"
     style="{% render 'spacing-style', settings: section.settings %}"
@@ -248,6 +248,22 @@
     {
       "type": "header",
       "content": "Layout"
+    },
+    {
+      "type": "select",
+      "id": "section_width",
+      "label": "t:settings.width",
+      "options": [
+        {
+          "value": "page-width",
+          "label": "t:options.page"
+        },
+        {
+          "value": "full-width",
+          "label": "t:options.full"
+        }
+      ],
+      "default": "page-width"
     },
     {
       "type": "color_scheme",

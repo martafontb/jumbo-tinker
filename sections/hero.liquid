@@ -201,7 +201,7 @@
 
 <div
   id="Hero-{{ section.id }}"
-  class="hero color-{{ section.settings.color_scheme }}{% if section.blocks.size == 0 and section.settings.section_height == 'auto' %} hero--no-blocks-auto-height{% endif %}"
+  class="hero hero--{{ section.settings.section_width }} color-{{ section.settings.color_scheme }}{% if section.blocks.size == 0 and section.settings.section_height == 'auto' %} hero--no-blocks-auto-height{% endif %}"
   style="
     --hero-border-style: {{ section.settings.border }};
     --hero-border-width: {{ section.settings.border_width }}px;
@@ -231,12 +231,14 @@
   {% endif %}
 
   {% comment %}
-    Hardcoded to section--full-width bc the media has to be full width in all cases.
-    hero__content-wrapper applies section_width.
+    The container follows the section_width setting so the hero sits on the
+    theme's page grid by default. Media and content are constrained to the
+    page column for 'page-width' and bleed edge-to-edge for 'full-width'
+    (see the .hero--page-width media/link rules in the stylesheet below).
   {% endcomment %}
 
   <div
-    class="hero__container spacing-style section section--full-width"
+    class="hero__container spacing-style section section--{{ section.settings.section_width }}"
     style="      {% render 'spacing-style', settings: section.settings %}"
   >
     {%- if section.settings.link != blank -%}
@@ -335,6 +337,20 @@
     display: grid;
     grid-column: 1 / -1;
     grid-template-columns: repeat(var(--hero-media-count, 1), 1fr);
+  }
+
+  /*
+    Page-width hero: pull the absolutely-positioned media and link layers in
+    to the theme's centre column. `--util-page-margin-offset` (set on
+    `.section`) is the exact width of the page grid's margin column, so
+    insetting left/right by it lines the media up with the page content.
+    `.hero--full-width` keeps the original edge-to-edge behaviour.
+  */
+  .hero--page-width .hero__media-wrapper,
+  .hero--page-width .hero__link {
+    grid-column: 2;
+    left: var(--util-page-margin-offset);
+    right: var(--util-page-margin-offset);
   }
 
 
