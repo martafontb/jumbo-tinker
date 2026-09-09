@@ -9,16 +9,8 @@
     --rule: var(--color-border);
     --riso: #E8402A;
     --giclee: #1A4A8A;
-    background: var(--bg);
     color: var(--ink);
-    padding: {{ section.settings.padding_top }}px 0 {{ section.settings.padding_bottom }}px;
     position: relative;
-  }
-
-  .jp-methods__inner {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 var(--padding-4xl);
   }
 
   /* ── Intro header ── */
@@ -36,35 +28,35 @@
 
   .jp-methods__eyebrow {
     display: inline-block;
-    font-family: var(--font-body--family);
-    font-size: var(--font-size--2xs, 0.625rem);
-    font-weight: 700;
-    letter-spacing: var(--letter-spacing-md, 0.13em);
+    font-family: var(--font-subheading--family);
+    font-size: var(--font-size--2xs);
+    font-weight: var(--font-subheading--weight);
+    letter-spacing: var(--letter-spacing-md);
     text-transform: uppercase;
-    line-height: 1;
+    line-height: var(--line-height--display-tight);
     padding: 0.25em 0.6em;
     background-color: var(--ink);
     color: var(--bg);
-    margin-bottom: 1rem;
+    margin-bottom: var(--margin-lg);
   }
 
   .jp-methods__heading {
     font-family: var(--font-heading--family);
-    font-size: clamp(var(--font-size--3xl), 5vw, var(--font-size--6xl));
-    font-weight: 900;
-    line-height: 0.95;
-    letter-spacing: var(--letter-spacing--display-tight);
+    font-size: var(--font-size--3xl);
+    font-weight: var(--font-heading--weight);
+    line-height: var(--line-height--display-tight);
+    letter-spacing: var(--letter-spacing--heading-normal);
     margin: 0;
   }
 
   .jp-methods__heading em {
     font-style: italic;
-    font-weight: 400;
+    font-weight: var(--font-heading--weight);
   }
 
   .jp-methods__intro-body {
-    font-size: 0.725rem;
-    line-height: 1.25;
+    font-size: var(--font-size--xs);
+    line-height: var(--line-height--body-normal);
     color: var(--mid);
     margin: 0;
   }
@@ -79,6 +71,7 @@
 
   .jp-methods__tab {
     font-family: var(--font-accent--family);
+    font-weight: var(--font-accent--weight);
     font-size: var(--font-size--2xs);
     letter-spacing: var(--letter-spacing-md);
     text-transform: uppercase;
@@ -142,18 +135,18 @@
   }
 
   .jp-guide__num {
-    font-size: 0.58rem;
+    font-size: var(--font-size--2xs);
     color: var(--mid);
-    letter-spacing: 0.1em;
+    letter-spacing: var(--letter-spacing-md);
     font-style: italic;
   }
 
   .jp-guide__title {
     font-family: var(--font-heading--family);
-    font-size: clamp(var(--font-size--lg), 2.5vw, var(--font-size--2xl));
-    font-weight: 700;
-    letter-spacing: var(--letter-spacing--heading-tight);
-    line-height: 1;
+    font-size: var(--font-size--xl);
+    font-weight: var(--font-heading--weight);
+    letter-spacing: var(--letter-spacing--heading-normal);
+    line-height: var(--line-height--heading-tight);
     transition: color var(--hover-transition-duration) var(--hover-transition-timing);
   }
 
@@ -170,21 +163,22 @@
 
   .jp-guide__body {
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: minmax(0, var(--max-width--body-normal)) minmax(0, var(--max-width--body-narrow));
     gap: var(--gap-3xl);
     padding: 0 0 2.5rem 4.5rem;
     align-items: start;
   }
 
   .jp-guide__text {
-    font-size: 0.725rem;
-    line-height: 1.5;
+    font-size: var(--font-size--xs);
+    line-height: var(--line-height--body-normal);
     color: var(--mid);
+    max-width: var(--max-width--body-normal);
   }
 
   .jp-guide__text strong {
     color: var(--ink);
-    font-weight: 500;
+    font-weight: var(--font-subheading--weight);
   }
 
   .jp-guide__specs {
@@ -199,7 +193,7 @@
     align-items: baseline;
     padding: 0.6rem 0;
     border-bottom: var(--style-border-width, 1px) solid var(--rule);
-    font-size: var(--font-size--2xs);
+    font-size: var(--font-size--xs);
     gap: var(--gap-lg);
   }
 
@@ -209,9 +203,9 @@
 
   .jp-guide__spec-label {
     color: var(--mid);
-    letter-spacing: 0.05em;
+    letter-spacing: var(--letter-spacing-sm);
     text-transform: uppercase;
-    font-size: 0.55rem;
+    font-size: var(--font-size--2xs);
     flex-shrink: 0;
   }
 
@@ -233,6 +227,8 @@
   /* ── Method badge ── */
   .jp-badge {
     display: inline-block;
+    font-family: var(--font-subheading--family);
+    font-weight: var(--font-subheading--weight);
     font-size: var(--font-size--2xs);
     letter-spacing: var(--letter-spacing-md);
     text-transform: uppercase;
@@ -259,14 +255,14 @@
 
   .jp-methods__cta-text {
     font-family: var(--font-heading--family);
-    font-size: clamp(var(--font-size--md), 2vw, var(--font-size--lg));
-    font-style: italic;
+    font-size: var(--font-size--lg);
     margin: 0;
-    font-weight: 400;
+    font-weight: var(--font-heading--weight);
   }
 
   .jp-methods__cta-link {
     font-family: var(--font-accent--family);
+    font-weight: var(--font-accent--weight);
     font-size: var(--font-size--2xs);
     letter-spacing: var(--letter-spacing-md);
     text-transform: uppercase;
@@ -304,14 +300,15 @@
       padding: var(--padding-2xl);
       margin-top: var(--padding-5xl);
     }
-    .jp-methods {
-      padding-top: calc({{ section.settings.padding_top }}px * var(--spacing-scale-sm, 0.6));
-      padding-bottom: calc({{ section.settings.padding_bottom }}px * var(--spacing-scale-sm, 0.6));
-    }
   }
 </style>
 
-<section class="jp-methods" id="jumbo-methods">
+<div class="section-background color-{{ section.settings.color_scheme }}"></div>
+<section
+  class="section section--{{ section.settings.section_width }} color-{{ section.settings.color_scheme }} spacing-style jp-methods"
+  id="jumbo-methods"
+  style="{% render 'spacing-style', settings: section.settings %}"
+>
   <div class="jp-methods__inner">
 
     <header class="jp-methods__intro">
@@ -477,6 +474,7 @@
 {
   "name": "Print Methods",
   "tag": "section",
+  "class": "section-wrapper",
   "settings": [
     { "type": "text", "id": "eyebrow", "label": "Eyebrow text", "default": "Printing Methods" },
     { "type": "html", "id": "heading", "label": "Heading", "default": "How we <em>print</em>" },
@@ -484,8 +482,20 @@
     { "type": "text", "id": "cta_text", "label": "CTA italic text", "default": "Got a project in mind?" },
     { "type": "text", "id": "cta_label", "label": "CTA button label", "default": "Get in touch" },
     { "type": "url", "id": "cta_url", "label": "CTA URL" },
-    { "type": "range", "id": "padding_top", "min": 40, "max": 160, "step": 8, "unit": "px", "label": "Padding top", "default": 80 },
-    { "type": "range", "id": "padding_bottom", "min": 40, "max": 160, "step": 8, "unit": "px", "label": "Padding bottom", "default": 80 }
+    {
+      "type": "select",
+      "id": "section_width",
+      "label": "t:settings.width",
+      "options": [
+        { "value": "page-width", "label": "t:options.page" },
+        { "value": "full-width", "label": "t:options.full" }
+      ],
+      "default": "page-width"
+    },
+    { "type": "color_scheme", "id": "color_scheme", "label": "t:settings.color_scheme", "default": "scheme-1" },
+    { "type": "header", "content": "t:content.padding" },
+    { "type": "range", "id": "padding-block-start", "label": "t:settings.top", "min": 0, "max": 100, "step": 4, "unit": "px", "default": 80 },
+    { "type": "range", "id": "padding-block-end", "label": "t:settings.bottom", "min": 0, "max": 100, "step": 4, "unit": "px", "default": 80 }
   ],
   "blocks": [
     {

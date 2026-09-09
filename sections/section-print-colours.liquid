@@ -8,7 +8,6 @@
     --mid: rgba(var(--color-foreground-rgb), 0.55);
     --bg: var(--color-background);
     --rule: var(--color-border);
-    padding: {{ section.settings.padding_top }}px 0 {{ section.settings.padding_bottom }}px;
     position: relative;
     overflow: hidden;
   }
@@ -23,9 +22,6 @@
   }
 
   .jp-colours__inner {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 var(--padding-4xl);
     position: relative;
     z-index: 1;
   }
@@ -41,30 +37,32 @@
   }
 
   .jp-colours__eyebrow {
-    font-size: 0.6rem;
+    font-family: var(--font-subheading--family);
+    font-weight: var(--font-subheading--weight);
+    font-size: var(--font-size--2xs);
     letter-spacing: var(--letter-spacing-md);
     text-transform: uppercase;
     color: var(--mid);
-    margin-bottom: 0.75rem;
+    margin-bottom: var(--margin-sm);
   }
 
   .jp-colours__title {
     font-family: var(--font-heading--family);
-    font-size: clamp(var(--font-size--3xl), 4vw, var(--font-size--6xl));
-    font-weight: 900;
-    line-height: 1;
-    letter-spacing: var(--letter-spacing--display-tight);
+    font-weight: var(--font-heading--weight);
+    font-size: var(--font-size--3xl);
+    line-height: var(--line-height--display-tight);
+    letter-spacing: var(--letter-spacing--heading-normal);
     margin: 0;
   }
 
   .jp-colours__title em {
     font-style: italic;
-    font-weight: 400;
+    font-weight: var(--font-heading--weight);
   }
 
   .jp-colours__desc {
-    font-size: 0.75rem;
-    line-height: 1.25;
+    font-size: var(--font-size--xs);
+    line-height: var(--line-height--body-normal);
     color: var(--mid);
     max-width: 380px;
     align-self: end;
@@ -116,19 +114,20 @@
   }
 
   .jp-colour-swatch__name {
-    font-size: 0.6rem;
-    letter-spacing: 0.08em;
+    font-family: var(--font-subheading--family);
+    font-size: var(--font-size--2xs);
+    letter-spacing: var(--letter-spacing-sm);
     text-transform: uppercase;
-    font-weight: 500;
-    line-height: 1.3;
-    margin-bottom: 0.2rem;
+    font-weight: var(--font-subheading--weight);
+    line-height: var(--line-height--body-tight);
+    margin-bottom: var(--margin-2xs);
     color: var(--ink);
   }
 
   .jp-colour-swatch__hex {
-    font-size: 0.58rem;
+    font-size: var(--font-size--2xs);
     color: var(--mid);
-    letter-spacing: 0.04em;
+    letter-spacing: var(--letter-spacing--body-normal);
     font-style: italic;
   }
 
@@ -143,19 +142,21 @@
   }
 
   .jp-colours__note p {
-    font-size: 0.725rem;
+    font-size: var(--font-size--xs);
     color: var(--mid);
-    line-height: 1.25;
+    line-height: var(--line-height--body-normal);
     max-width: 560px;
     margin: 0;
     text-wrap: balance;
   }
 
   .jp-colours__note a {
-    font-size: 0.65rem;
+    font-family: var(--font-subheading--family);
+    font-weight: var(--font-subheading--weight);
+    font-size: var(--font-size--2xs);
     color: var(--ink);
     text-decoration: none;
-    letter-spacing: 0.1em;
+    letter-spacing: var(--letter-spacing-md);
     text-transform: uppercase;
     border-bottom: 1px solid var(--ink);
     padding-bottom: 1px;
@@ -183,14 +184,15 @@
       flex-direction: column;
       align-items: flex-start;
     }
-    .jp-colours {
-      padding-top: calc({{ section.settings.padding_top }}px * var(--spacing-scale-sm, 0.6));
-      padding-bottom: calc({{ section.settings.padding_bottom }}px * var(--spacing-scale-sm, 0.6));
-    }
   }
 </style>
 
-<section class="jp-colours" id="jumbo-colours">
+<div class="section-background color-{{ section.settings.color_scheme }}"></div>
+<section
+  class="section section--{{ section.settings.section_width }} color-{{ section.settings.color_scheme }} spacing-style jp-colours"
+  id="jumbo-colours"
+  style="{% render 'spacing-style', settings: section.settings %}"
+>
   <div class="jp-colours__inner">
 
     <header class="jp-colours__header">
@@ -229,6 +231,7 @@
 {
   "name": "Print Colours",
   "tag": "section",
+  "class": "section-wrapper",
   "settings": [
     { "type": "text", "id": "eyebrow", "label": "Eyebrow text", "default": "Risograph · Inks" },
     { "type": "html", "id": "title", "label": "Section title", "default": "Our <em>Colours</em>" },
@@ -236,8 +239,20 @@
     { "type": "textarea", "id": "footer_note", "label": "Footer note" },
     { "type": "text", "id": "cta_label", "label": "CTA label", "default": "Get in touch" },
     { "type": "url", "id": "cta_url", "label": "CTA URL" },
-    { "type": "range", "id": "padding_top", "min": 40, "max": 160, "step": 8, "unit": "px", "label": "Padding top", "default": 80 },
-    { "type": "range", "id": "padding_bottom", "min": 40, "max": 160, "step": 8, "unit": "px", "label": "Padding bottom", "default": 80 }
+    {
+      "type": "select",
+      "id": "section_width",
+      "label": "t:settings.width",
+      "options": [
+        { "value": "page-width", "label": "t:options.page" },
+        { "value": "full-width", "label": "t:options.full" }
+      ],
+      "default": "page-width"
+    },
+    { "type": "color_scheme", "id": "color_scheme", "label": "t:settings.color_scheme", "default": "scheme-1" },
+    { "type": "header", "content": "t:content.padding" },
+    { "type": "range", "id": "padding-block-start", "label": "t:settings.top", "min": 0, "max": 100, "step": 4, "unit": "px", "default": 80 },
+    { "type": "range", "id": "padding-block-end", "label": "t:settings.bottom", "min": 0, "max": 100, "step": 4, "unit": "px", "default": 80 }
   ],
   "blocks": [
     {
