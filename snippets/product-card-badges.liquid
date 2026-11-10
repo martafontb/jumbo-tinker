@@ -4,6 +4,8 @@
   @param {object} product - The product object.
   @param {object} settings - The theme settings object.
 
+  Reads the boolean product metafield `custom.early_bird` (true/false) to show an "Early bird" badge.
+
   @example
   {% render 'product-card-badges', product: product, settings: settings %}
 {%- enddoc -%}
@@ -15,18 +17,30 @@
     --badge-font-family: var(--font-{{ settings.badge_font_family }}--family); --badge-font-weight: var(--font-{{ settings.badge_font_family }}--weight); --badge-text-transform: {{ settings.badge_text_transform }};
   "
 >
-  {%- if product.available == false or product.compare_at_price > product.price and product.available -%}
+  {%- liquid
+    assign is_early_bird = product.metafields.custom.early_bird.value
+    assign is_on_sale = false
+    if product.compare_at_price > product.price
+      assign is_on_sale = true
+    endif
+
+    # Priority: sold out > early bird > sale
+    assign badge_type = blank
+    if product.available == false
+      assign badge_type = 'sold_out'
+    elsif is_early_bird
+      assign badge_type = 'early_bird'
+    elsif is_on_sale
+      assign badge_type = 'sale'
+    endif
+  -%}
+
+  {%- if badge_type != blank -%}
+    {%- assign badge_scheme = 'badge_' | append: badge_type | append: '_color_scheme' -%}
     <div
-      class="
-        product-badges__badge product-badges__badge--rectangle
-        {% if product.available == false %} color-{{ settings.badge_sold_out_color_scheme }}{% elsif product.compare_at_price > product.price %} color-{{ settings.badge_sale_color_scheme }}{% endif %}
-      "
+      class="product-badges__badge product-badges__badge--rectangle color-{{ settings[badge_scheme] }}"
     >
-      {%- if product.available == false -%}
-        {{ 'content.product_badge_sold_out' | t }}
-      {%- elsif product.compare_at_price > product.price -%}
-        {{ 'content.product_badge_sale' | t }}
-      {%- endif -%}
+      {{- 'content.product_badge_' | append: badge_type | t -}}
     </div>
   {%- endif -%}
 </div>

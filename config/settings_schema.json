@@ -1466,6 +1466,12 @@
         "default": "scheme-5"
       },
       {
+        "type": "color_scheme",
+        "id": "badge_early_bird_color_scheme",
+        "label": "t:settings.badge_early_bird_color_scheme",
+        "default": "scheme-3"
+      },
+      {
         "type": "header",
         "content": "t:names.typography"
       },
